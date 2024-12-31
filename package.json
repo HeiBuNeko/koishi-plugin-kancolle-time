@@ -8,7 +8,7 @@
   "homepage": "https://github.com/HeiBuNeko/koishi-plugin-kancolle-time",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HeiBuNeko/koishi-plugin-kancolle-time"
+    "url": "git+https://github.com/HeiBuNeko/koishi-plugin-kancolle-time.git"
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -27,9 +27,6 @@
   "peerDependencies": {
     "koishi": "^4.18.0"
   },
-  "devDependencies": {
-    "koishi-plugin-cron": "^3.1.0"
-  },
   "koishi": {
     "description": {
       "en": "kancolle-time",
@@ -41,5 +38,8 @@
         "cron"
       ]
     }
+  },
+  "dependencies": {
+    "@satorijs/element": "^3.1.7"
   }
 }

@@ -16,13 +16,13 @@ declare module "koishi" {
   }
 }
 
-export interface IKancolleTime {
+interface IKancolleTime {
   platform: string;
   guildId: string;
   ship: string;
 }
 
-export interface ITimeItem {
+interface ITimeItem {
   name: string;
   time: string;
   time_word_jp: string;
@@ -30,7 +30,7 @@ export interface ITimeItem {
   href: string;
 }
 
-export interface IShipItem {
+interface IShipItem {
   name: string;
   href: string;
 }
