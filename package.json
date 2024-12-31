@@ -1,14 +1,14 @@
 {
   "name": "koishi-plugin-kancolle-time",
-  "description": "kancolle-time",
+  "description": "舰娘报时",
   "version": "1.0.0",
   "contributors": [
     "HeiBuNeko <841619762@qq.com>"
   ],
-  "homepage": "https://cron.koishi.chat",
+  "homepage": "https://github.com/HeiBuNeko/koishi-plugin-kancolle-time",
   "repository": {
     "type": "git",
-    "url": "https://github.com/koishijs/koishi-plugin-cron.git"
+    "url": "https://github.com/HeiBuNeko/koishi-plugin-kancolle-time"
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -20,12 +20,26 @@
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "kancolle",
+    "time"
   ],
   "peerDependencies": {
     "koishi": "^4.18.0"
   },
   "devDependencies": {
     "koishi-plugin-cron": "^3.1.0"
+  },
+  "koishi": {
+    "description": {
+      "en": "kancolle-time",
+      "zh": "舰娘报时"
+    },
+    "service": {
+      "required": [
+        "database",
+        "cron"
+      ]
+    }
   }
 }
