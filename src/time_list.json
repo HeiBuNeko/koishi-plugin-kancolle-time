@@ -819,13 +819,6 @@
     "time_word_cn": "二零零零。我开吃啦——！提督，这个，好好吃~。分量也很足，太棒了！"
 },
 {
-    "name": "吹雪",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "司令官、日付が変わりました。本日は私、吹雪が時刻をお知らせいたしますね。",
-    "href": "https://uploads.kcwiki.cn/commons/c/cf/011a-0000.mp3",
-    "time_word_cn": "司令官，日期已经变了。今天就由我，吹雪来给您报时。"
-},
-{
     "name": "飞龙",
     "time": "二一〇〇时报",
     "time_word_jp": "フタヒトマルマル　ふわぁ…食べた食べたぁ…。　でも、太っちゃう…。　多聞丸に怒られちゃうかなぁ",
@@ -845,6 +838,13 @@
     "time_word_jp": "フタサンマルマル　ふぅ～今日も一日疲れたねぇ。　提督、お疲れさま。　明日もがんばろっ！",
     "href": "https://uploads.kcwiki.cn/commons/b/bd/009a-2300.mp3",
     "time_word_cn": "二三零零。呼~今天一整天累坏了吧。提督，辛苦您了。明天也继续加油吧！"
+},
+{
+    "name": "吹雪",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "司令官、日付が変わりました。本日は私、吹雪が時刻をお知らせいたしますね。",
+    "href": "https://uploads.kcwiki.cn/commons/c/cf/011a-0000.mp3",
+    "time_word_cn": "司令官，日期已经变了。今天就由我，吹雪来给您报时。"
 },
 {
     "name": "吹雪",
@@ -2300,21 +2300,21 @@
     "time": "一六〇〇时报",
     "time_word_jp": "ヒトロクマルマ...あぁ〜？...そこの戦艦ぁん、今なんっつと—？！ほうぉ〜、この金剛型戦艦姉妹をナメてもらっては...困るなぁ〜！！",
     "href": ".mp3",
-    "time_word_cn": "一六零...啥～？！...那边的战舰，你刚才干嘛——？！哟呵～，敢把我们金刚型姐妹看得这么扁...我很有意见啊——！！"
+    "time_word_cn": "一六零...啥～？！...那邊的戰艦，妳剛才幹嘛——？！喲呵～，敢把我們金剛型姐妹看得這麼扁...我很有意見啊——！！"
 },
 {
     "name": "雾岛",
     "time": "一七〇〇时报",
     "time_word_jp": "そう...？あぁ、I see〜。司令、アイツ、話せば意外といい奴ですね〜！気が合えそうな予感がします。",
     "href": ".mp3",
-    "time_word_cn": "一七〇〇。这样啊？啊～懂了懂了。司令，聊下来发现她其实人还挺好的嘛～！感觉我们两个应该合得来。"
+    "time_word_cn": "一七〇〇。這樣啊？啊～懂了懂了。司令，聊下來發現她其實人還挺好的嘛～！感覺我們兩個應該合得來。"
 },
 {
     "name": "雾岛",
     "time": "一八〇〇时报",
     "time_word_jp": "ヒトハチマルマル…。あの娘、電気系統が弱いの？ ガツン、て叩けばいいんじゃない？",
     "href": "https://uploads.kcwiki.cn/commons/8/8e/152-1800.mp3",
-    "time_word_cn": "一八零零…。那丫头是电力系统不好吗？啪地打一下不就行了嘛！"
+    "time_word_cn": "一八零零…。那丫頭是電力系統不好嗎？啪地打一下不就行了嘛！"
 },
 {
     "name": "雾岛",
@@ -2618,13 +2618,6 @@
     "time_word_cn": "一三零零！午饭做好啦！怎么样怎么样？意外的我的女子力很高是吧？那么今晚来夜战吧？"
 },
 {
-    "name": "神通",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "提督、本日はこの神通がお側に控えさせていただきます。",
-    "href": "https://uploads.kcwiki.cn/commons/1/11/159-0000.mp3",
-    "time_word_cn": "提督，今日就请让我神通在您身边待命。"
-},
-{
     "name": "川内",
     "time": "一四〇〇时报",
     "time_word_jp": "ヒトヨンマ…お、三水戦の皆集まってるよね？よーし！じゃ、夜戦に備えて、演習しときますか！",
@@ -2693,6 +2686,13 @@
     "time_word_jp": "フタサンマルマル。戻ったけどさ…提督なんでよ？え、母港に私にいてほしい？し、仕方ないな…夜戦…",
     "href": "https://uploads.kcwiki.cn/commons/d/d0/158-2300.mp3",
     "time_word_cn": "二三零零、虽然是回来了啦…不过提督为什么啊？诶，想要我呆在母港？真，真是没办法啊…夜战…"
+},
+{
+    "name": "神通",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "提督、本日はこの神通がお側に控えさせていただきます。",
+    "href": "https://uploads.kcwiki.cn/commons/1/11/159-0000.mp3",
+    "time_word_cn": "提督，今日就请让我神通在您身边待命。"
 },
 {
     "name": "神通",
@@ -3014,7 +3014,7 @@
     "time": "二二〇〇时报",
     "time_word_jp": "フタフタマルマル。えっ、ごめん、那珂ちゃん五月蠅かった？あっ、そうでもない？あぁ～ダメ？そっか～…くすん…",
     "href": "https://uploads.kcwiki.cn/commons/3/33/160-2200.mp3",
-    "time_word_cn": "二二零零。诶？「抱歉，那珂酱很吵」？啊？「并不是这样」？啊，「不行」？这样啊……可恶……"
+    "time_word_cn": "二二零零。诶？“抱歉，那珂酱很吵”？啊？“并不是这样”？啊，“不行”？这样啊……可恶……"
 },
 {
     "name": "那珂",
@@ -4534,6 +4534,174 @@
     "time_word_jp": "フタサンマルマルです。提督、本日一日、大変お疲れさまでした。明日も...きっと明日も...お休みなさい。",
     "href": "https://uploads.kcwiki.cn/commons/8/8f/078a-2300.mp3",
     "time_word_cn": "二三〇〇。提督，今天真是辛苦你了。明天，明天也一定会……晚安。"
+},
+{
+    "name": "时雨",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "深夜0時だよ。日付が変わったね。",
+    "href": "https://uploads.kcwiki.cn/commons/c/c8/080a-0000.mp3",
+    "time_word_cn": "深夜0点，新的一天来了呢。"
+},
+{
+    "name": "时雨",
+    "time": "〇一〇〇时报",
+    "time_word_jp": "マルヒトマルマル。提督、疲れたね。",
+    "href": "https://uploads.kcwiki.cn/commons/6/6d/080a-0100.mp3",
+    "time_word_cn": "零一零零，提督，很累了呢。"
+},
+{
+    "name": "时雨",
+    "time": "〇二〇〇时报",
+    "time_word_jp": "マルフタマルマル。大丈夫？",
+    "href": "https://uploads.kcwiki.cn/commons/3/3c/080a-0200.mp3",
+    "time_word_cn": "零二零零，没问题吗？"
+},
+{
+    "name": "时雨",
+    "time": "〇三〇〇时报",
+    "time_word_jp": "マルサンマルマル。静かな夜だね。",
+    "href": "https://uploads.kcwiki.cn/commons/8/87/080a-0300.mp3",
+    "time_word_cn": "零三零零，真是静谧的夜晚呢。"
+},
+{
+    "name": "时雨",
+    "time": "〇四〇〇时报",
+    "time_word_jp": "マルヨンマルマル。僕は大丈夫。提督は優しいね。",
+    "href": "https://uploads.kcwiki.cn/commons/9/9b/080a-0400.mp3",
+    "time_word_cn": "零四零零，我没问题的。提督真是温柔呢。"
+},
+{
+    "name": "时雨",
+    "time": "〇五〇〇时报",
+    "time_word_jp": "マルゴーマルマル。新しい一日がはじまるね。",
+    "href": "https://uploads.kcwiki.cn/commons/c/c8/080a-0500.mp3",
+    "time_word_cn": "零五零零，新的一天开始了呢。"
+},
+{
+    "name": "时雨",
+    "time": "〇六〇〇时报",
+    "time_word_jp": "マルロクマルマル。今日一日、僕が提督に時間を伝えるよ。",
+    "href": "https://uploads.kcwiki.cn/commons/0/0d/080a-0600.mp3",
+    "time_word_cn": "零六零零，今天就由我来为提督报时哟。"
+},
+{
+    "name": "时雨",
+    "time": "〇七〇〇时报",
+    "time_word_jp": "マルナナマルマル。朝は僕も好きだな。",
+    "href": "https://uploads.kcwiki.cn/commons/0/0f/080a-0700.mp3",
+    "time_word_cn": "零七零零，我也很喜欢早上呢。"
+},
+{
+    "name": "时雨",
+    "time": "〇八〇〇时报",
+    "time_word_jp": "マルハチマルマル。提督、そろそろ出撃しよう。",
+    "href": "https://uploads.kcwiki.cn/commons/7/70/080a-0800.mp3",
+    "time_word_cn": "零八零零，提督，差不多该出击了。"
+},
+{
+    "name": "时雨",
+    "time": "〇九〇〇时报",
+    "time_word_jp": "マルキュウマルマル。世間は忙しないね。",
+    "href": "https://uploads.kcwiki.cn/commons/7/72/080a-0900.mp3",
+    "time_word_cn": "零九零零，世界还真是忙碌啊。"
+},
+{
+    "name": "时雨",
+    "time": "一〇〇〇时报",
+    "time_word_jp": "ヒトマルマルマル。提督の仕事は…まぁ、提督が仕事だよね、うん。",
+    "href": "https://uploads.kcwiki.cn/commons/6/66/080a-1000.mp3",
+    "time_word_cn": "一零零零，提督的工作内容是……嘛，提督就是个工作嘛，嗯。"
+},
+{
+    "name": "时雨",
+    "time": "一一〇〇时报",
+    "time_word_jp": "ヒトヒトマルマル。僕も少しお腹が空いたなぁ。",
+    "href": "https://uploads.kcwiki.cn/commons/0/04/080a-1100.mp3",
+    "time_word_cn": "一一零零，我也稍微有点饿了。"
+},
+{
+    "name": "时雨",
+    "time": "一二〇〇时报",
+    "time_word_jp": "ヒトフタマルマル。疲れたかい？丁度いい、お昼にしよう。",
+    "href": "https://uploads.kcwiki.cn/commons/9/97/080a-1200.mp3",
+    "time_word_cn": "一二零零，您累了吗？正好，我们去吃午饭吧。"
+},
+{
+    "name": "时雨",
+    "time": "一三〇〇时报",
+    "time_word_jp": "ヒトサンマルマル。提督とお昼、嬉しいね。",
+    "href": "https://uploads.kcwiki.cn/commons/a/af/080a-1300.mp3",
+    "time_word_cn": "一三零零，和提督一起吃午饭，我很开心呢。"
+},
+{
+    "name": "时雨",
+    "time": "一四〇〇时报",
+    "time_word_jp": "ヒトヨンマルマル。午後の任務も頑張ろう。",
+    "href": "https://uploads.kcwiki.cn/commons/a/af/080a-1400.mp3",
+    "time_word_cn": "一四零零，下午的任务也加油吧。"
+},
+{
+    "name": "时雨",
+    "time": "一五〇〇时报",
+    "time_word_jp": "ヒトゴーマルマル。比叡、大丈夫、僕も傍にいる。",
+    "href": "https://uploads.kcwiki.cn/commons/5/53/080a-1500.mp3",
+    "time_word_cn": "一五零零，比睿，没关系，有我陪着你。"
+},
+{
+    "name": "时雨",
+    "time": "一六〇〇时报",
+    "time_word_jp": "ヒトロクマルマル。そうだね、白露。よがた、僕も、そう思うよ。",
+    "href": "https://uploads.kcwiki.cn/commons/1/17/080a-1600.mp3",
+    "time_word_cn": "一六零零，这样啊，白露，真好呢，我也这么觉得。"
+},
+{
+    "name": "时雨",
+    "time": "一七〇〇时报",
+    "time_word_jp": "ヒトナナマルマル。夕陽が、あんなに赤くて。提督、綺麗て、そして、なぜだろう、少し悲しいね。",
+    "href": "https://uploads.kcwiki.cn/commons/c/cf/080a-1700.mp3",
+    "time_word_cn": "一七零零，夕阳这么的火红。提督，真漂亮啊，而且为什么呢，有点悲伤呢。"
+},
+{
+    "name": "时雨",
+    "time": "一八〇〇时报",
+    "time_word_jp": "ヒトハチマルマル…ごめん、僕は大丈夫。提督、ありがとう。夕食、用意するね。",
+    "href": "https://uploads.kcwiki.cn/commons/9/9e/080a-1800.mp3",
+    "time_word_cn": "一八零零……抱歉，我没事的。提督，谢谢你。我去准备晚饭了。"
+},
+{
+    "name": "时雨",
+    "time": "一九〇〇时报",
+    "time_word_jp": "ヒトキュウマルマル。提督、簡単なものだけど、ご飯作ったよ。一緒に食べよう。麦飯のおかわりあるから。",
+    "href": "https://uploads.kcwiki.cn/commons/3/3d/080a-1900.mp3",
+    "time_word_cn": "一九零零，提督，虽然是很简单的东西，晚饭做好了。一起吃吧，麦饭还有哦。"
+},
+{
+    "name": "时雨",
+    "time": "二〇〇〇时报",
+    "time_word_jp": "フタマルマルマル。そろそろ夜戦の時間か…。騒がしくなるね。",
+    "href": "https://uploads.kcwiki.cn/commons/2/23/080a-2000.mp3",
+    "time_word_cn": "二零零零，就快到夜战的时间了吗……感觉变得有点吵闹了。"
+},
+{
+    "name": "时雨",
+    "time": "二一〇〇时报",
+    "time_word_jp": "フタヒトマルマル。すっかり夜か…。",
+    "href": "https://uploads.kcwiki.cn/commons/6/6b/080a-2100.mp3",
+    "time_word_cn": "二一零零，已经完全是晚上了呀…。"
+},
+{
+    "name": "时雨",
+    "time": "二二〇〇时报",
+    "time_word_jp": "フタフタマルマル。マイペースでいいんだ。うん、僕もそうさ。",
+    "href": "https://uploads.kcwiki.cn/commons/c/c9/080a-2200.mp3",
+    "time_word_cn": "二二零零，按照自己的感觉来就好。嗯，我就是这样哒。"
+},
+{
+    "name": "时雨",
+    "time": "二三〇〇时报",
+    "time_word_jp": "フタサンマルマル。今日は佐世保の時雨もそろそろ看板かな。",
+    "href": "https://uploads.kcwiki.cn/commons/b/bd/080a-2300.mp3",
+    "time_word_cn": "二三零零，今天佐世保的时雨也要休息了呢。"
 },
 {
     "name": "夕立",
@@ -6216,6 +6384,174 @@
     "time_word_cn": "到晚上11点了。终于是关键的时候了！"
 },
 {
+    "name": "夕张",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "深夜0時よ。あっ、録画確認しないと。",
+    "href": "https://uploads.kcwiki.cn/commons/d/d1/111-0000.mp3",
+    "time_word_cn": "深夜0点了哦。啊，必须要去确认录像情况了。"
+},
+{
+    "name": "夕张",
+    "time": "〇一〇〇时报",
+    "time_word_jp": "1時かぁ‥。っ！私、深夜アニメとか楽しみにしてませんから！",
+    "href": "https://uploads.kcwiki.cn/commons/2/20/111-0100.mp3",
+    "time_word_cn": "1点了吗……我，并没有在期待深夜动画什么的！"
+},
+{
+    "name": "夕张",
+    "time": "〇二〇〇时报",
+    "time_word_jp": "もう2時ね。提督、お休みください。",
+    "href": "https://uploads.kcwiki.cn/commons/9/9d/111-0200.mp3",
+    "time_word_cn": "已经2点了呢。提督，请休息吧。"
+},
+{
+    "name": "夕张",
+    "time": "〇三〇〇时报",
+    "time_word_jp": "3時です。提督寝た？もう寝た？",
+    "href": "https://uploads.kcwiki.cn/commons/1/10/111-0300.mp3",
+    "time_word_cn": "3点了。提督睡了？已经睡了？"
+},
+{
+    "name": "夕张",
+    "time": "〇四〇〇时报",
+    "time_word_jp": "4時･･。提督話しかけないで、私寝てるんですからぁ",
+    "href": "https://uploads.kcwiki.cn/commons/3/30/111-0400.mp3",
+    "time_word_cn": "4点……提督，不要跟我搭话，我已经要睡着啦！"
+},
+{
+    "name": "夕张",
+    "time": "〇五〇〇时报",
+    "time_word_jp": "明るい‥。5時･･もう朝ですか‥",
+    "href": "https://uploads.kcwiki.cn/commons/d/d1/111-0500.mp3",
+    "time_word_cn": "好亮……5点……已经早上了吗……"
+},
+{
+    "name": "夕张",
+    "time": "〇六〇〇时报",
+    "time_word_jp": "6時です。提督シャキっとしてください。",
+    "href": "https://uploads.kcwiki.cn/commons/8/81/111-0600.mp3",
+    "time_word_cn": "6点了。提督，请清醒一下啦。"
+},
+{
+    "name": "夕张",
+    "time": "〇七〇〇时报",
+    "time_word_jp": "朝7時です。提督二度寝しちゃダーメェー",
+    "href": "https://uploads.kcwiki.cn/commons/3/3e/111-0700.mp3",
+    "time_word_cn": "早上7点了。提督，睡回笼觉不——可——以——啦。"
+},
+{
+    "name": "夕张",
+    "time": "〇八〇〇时报",
+    "time_word_jp": "8時です。さぁ朝のデータ録りますよ。",
+    "href": "https://uploads.kcwiki.cn/commons/4/4c/111-0800.mp3",
+    "time_word_cn": "8点了。那么，要记录早上的数据了哦。"
+},
+{
+    "name": "夕张",
+    "time": "〇九〇〇时报",
+    "time_word_jp": "9時になりました。良い一日にしましょうね。",
+    "href": "https://uploads.kcwiki.cn/commons/8/8b/111-0900.mp3",
+    "time_word_cn": "到9点了呢。要好好的过这一天呢。"
+},
+{
+    "name": "夕张",
+    "time": "一〇〇〇时报",
+    "time_word_jp": "10時です。どう？順調ですか？",
+    "href": "https://uploads.kcwiki.cn/commons/3/35/111-1000.mp3",
+    "time_word_cn": "10点。怎么样？工作顺利吗？"
+},
+{
+    "name": "夕张",
+    "time": "一一〇〇时报",
+    "time_word_jp": "11時です。今日のお昼はお蕎麦、とか？",
+    "href": "https://uploads.kcwiki.cn/commons/1/1a/111-1100.mp3",
+    "time_word_cn": "11点。今天的午餐吃荞麦面，好吗？"
+},
+{
+    "name": "夕张",
+    "time": "一二〇〇时报",
+    "time_word_jp": "12時になりました。今日はおいしいものを食べたいなぁ、天ぷら蕎麦とか！",
+    "href": "https://uploads.kcwiki.cn/commons/5/53/111-1200.mp3",
+    "time_word_cn": "到12点了。今天想吃美味的食物呢，天妇罗荞麦面之类的！"
+},
+{
+    "name": "夕张",
+    "time": "一三〇〇时报",
+    "time_word_jp": "午後1時です。食べたら眠くなっちゃう、自然の摂理です。",
+    "href": "https://uploads.kcwiki.cn/commons/6/61/111-1300.mp3",
+    "time_word_cn": "下午1点。吃了之后就变困了，是自然的规律呢。"
+},
+{
+    "name": "夕张",
+    "time": "一四〇〇时报",
+    "time_word_jp": "午後2時。午後も頑張りましょう。",
+    "href": "https://uploads.kcwiki.cn/commons/0/0e/111-1400.mp3",
+    "time_word_cn": "下午2点。下午也要一起努力呢。"
+},
+{
+    "name": "夕张",
+    "time": "一五〇〇时报",
+    "time_word_jp": "午後3時です。甘いものが欲しくなりました。",
+    "href": "https://uploads.kcwiki.cn/commons/b/b2/111-1500.mp3",
+    "time_word_cn": "下午3点了。变得想要吃点甜食了。"
+},
+{
+    "name": "夕张",
+    "time": "一六〇〇时报",
+    "time_word_jp": "午後4時になりました。現在の提督の戦績が気になりますね。",
+    "href": "https://uploads.kcwiki.cn/commons/c/c2/111-1600.mp3",
+    "time_word_cn": "已经下午4点了。很在意现在提督的战绩如何了。"
+},
+{
+    "name": "夕张",
+    "time": "一七〇〇时报",
+    "time_word_jp": "暮れ泥んできましたね。午後5時です。",
+    "href": "https://uploads.kcwiki.cn/commons/6/65/111-1700.mp3",
+    "time_word_cn": "已经是日暮时分了呢。下午5点。"
+},
+{
+    "name": "夕张",
+    "time": "一八〇〇时报",
+    "time_word_jp": "午後6時です。ご飯の支度しないと、間宮とか近くにいないのかしらぁ‥。",
+    "href": "https://uploads.kcwiki.cn/commons/0/0f/111-1800.mp3",
+    "time_word_cn": "下午6点了。必须要准备晚餐了，间宫她们在不在附近呢……"
+},
+{
+    "name": "夕张",
+    "time": "一九〇〇时报",
+    "time_word_jp": "午後7時です、提督。さ、夜ご飯にしましょう、銀蝿とかしちゃだめですよ",
+    "href": "https://uploads.kcwiki.cn/commons/3/35/111-1900.mp3",
+    "time_word_cn": "晚上7点了，提督。来，一起去吃晚餐吧，偷吃是不可以的哦。"
+},
+{
+    "name": "夕张",
+    "time": "二〇〇〇时报",
+    "time_word_jp": "午後8時です。どう？美味しかった？",
+    "href": "https://uploads.kcwiki.cn/commons/3/30/111-2000.mp3",
+    "time_word_cn": "晚上8点了。怎样？是不是好吃？"
+},
+{
+    "name": "夕张",
+    "time": "二一〇〇时报",
+    "time_word_jp": "午後9時。提督の好きなメニューのデータはぜぇーんぶ揃ってます。",
+    "href": "https://uploads.kcwiki.cn/commons/e/e1/111-2100.mp3",
+    "time_word_cn": "晚上9点。提督喜欢的菜谱的数据我可是全——部收集了哦。"
+},
+{
+    "name": "夕张",
+    "time": "二二〇〇时报",
+    "time_word_jp": "午後10時です。あぁ～もう～っ、5500トン級が一隻ホントうるさいですね。文句言ってきましょうか。",
+    "href": "https://uploads.kcwiki.cn/commons/5/51/111-2200.mp3",
+    "time_word_cn": "晚上10点。啊……真是的……5500吨位的那一位可真是吵闹啊。我要去抱怨几句了呢。"
+},
+{
+    "name": "夕张",
+    "time": "二三〇〇时报",
+    "time_word_jp": "午後11時です。まだ頑張るんですね。じゃぁ、今晩もお付き合いします。",
+    "href": "https://uploads.kcwiki.cn/commons/3/31/111-2300.mp3",
+    "time_word_cn": "晚上11点。还在努力着呢。那么，今晚也让我陪着您。"
+},
+{
     "name": "瑞凤",
     "time": "〇〇〇〇时报",
     "time_word_jp": "日付が変わったよ、提督。",
@@ -7487,7 +7823,7 @@
     "time": "一三〇〇时报",
     "time_word_jp": "提督。私「こんびに」とやらのサンドイッチを初めていただきましたわ。意外といけるんですのね。あぁ、13時ですわ",
     "href": "https://uploads.kcwiki.cn/commons/5/51/125-1300.mp3",
-    "time_word_cn": "提督。这个叫做“便利店”的地方的三明治，我还是第一次吃呢。意外的美味呢。啊，13时哦。"
+    "time_word_cn": "提督。这个叫做「便利店」的地方的三明治，我还是第一次吃呢。意外的美味呢。啊，13时哦。"
 },
 {
     "name": "熊野",
@@ -8386,13 +8722,6 @@
     "time_word_cn": "晚上九点。卷云跟我啰嗦睡吧睡吧吵死了啊。这是怎么了？"
 },
 {
-    "name": "夕云",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "深夜零時です。夕雲は眠いわ。",
-    "href": "https://uploads.kcwiki.cn/commons/0/00/133-0000.mp3",
-    "time_word_cn": "深夜0点。夕云好困啊。"
-},
-{
     "name": "秋云",
     "time": "二二〇〇时报",
     "time_word_jp": "午後十時。眠いから、ちょっと布団借りるね。入ってきちゃ、ダ、メよ。",
@@ -8405,6 +8734,13 @@
     "time_word_jp": "午後十一時。瞬間睡眠。これも訓練のうちの一つ。提督も、寝ちゃえ。",
     "href": "https://uploads.kcwiki.cn/commons/f/f5/132-2300.mp3",
     "time_word_cn": "午后十一点。一瞬间睡着！这也是训练内的一个项目。提督也，赶紧洗洗睡吧！"
+},
+{
+    "name": "夕云",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "深夜零時です。夕雲は眠いわ。",
+    "href": "https://uploads.kcwiki.cn/commons/0/00/133-0000.mp3",
+    "time_word_cn": "深夜0点。夕云好困啊。"
 },
 {
     "name": "夕云",
@@ -8566,6 +8902,174 @@
     "time_word_jp": "午後十一時かぁ。提督、今日は、早く寝ましょ。",
     "href": "https://uploads.kcwiki.cn/commons/3/3d/133-2300.mp3",
     "time_word_cn": "晚上11点了。提督，今天就早点睡吧。"
+},
+{
+    "name": "卷云",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "零時、深夜零時ですよぉ？",
+    "href": "https://uploads.kcwiki.cn/commons/e/e6/134-0000.mp3",
+    "time_word_cn": "零点，深夜零点了呢！"
+},
+{
+    "name": "卷云",
+    "time": "〇一〇〇时报",
+    "time_word_jp": "はわわわわ、なんともう、深夜１時ですよぉ！",
+    "href": "https://uploads.kcwiki.cn/commons/9/98/134-0100.mp3",
+    "time_word_cn": "哈哇哇哇哇，不知不觉间已经凌晨一点了呢！"
+},
+{
+    "name": "卷云",
+    "time": "〇二〇〇时报",
+    "time_word_jp": "深夜2時…巻雲限界だよぉ～",
+    "href": "https://uploads.kcwiki.cn/commons/b/bd/134-0200.mp3",
+    "time_word_cn": "凌晨两点……卷云已经到极限啦……"
+},
+{
+    "name": "卷云",
+    "time": "〇三〇〇时报",
+    "time_word_jp": "午前3時…司令官様ぁ、艦これは逃げないからさぁ、寝よぉよぅ",
+    "href": "https://uploads.kcwiki.cn/commons/0/02/134-0300.mp3",
+    "time_word_cn": "凌晨三点……司令官大人……舰colle是不会跑掉的，快睡吧……"
+},
+{
+    "name": "卷云",
+    "time": "〇四〇〇时报",
+    "time_word_jp": "よ…4時…　…ぷはっ…　ぅう～ん…",
+    "href": "https://uploads.kcwiki.cn/commons/0/0d/134-0400.mp3",
+    "time_word_cn": "si…四点……呼……嗯……"
+},
+{
+    "name": "卷云",
+    "time": "〇五〇〇时报",
+    "time_word_jp": "ご～…じ～……んぅ～…む…",
+    "href": "https://uploads.kcwiki.cn/commons/d/db/134-0500.mp3",
+    "time_word_cn": "wu～…dian～……嗯……呼……"
+},
+{
+    "name": "卷云",
+    "time": "〇六〇〇时报",
+    "time_word_jp": "ろ…ろ……わ！ごめんなさい寝てません～",
+    "href": "https://uploads.kcwiki.cn/commons/2/2d/134-0600.mp3",
+    "time_word_cn": "liu……liu……啊！对不起真的没有在睡觉！"
+},
+{
+    "name": "卷云",
+    "time": "〇七〇〇时报",
+    "time_word_jp": "しちじ～…むにゃ…夕雲ねえさ～ん",
+    "href": "https://uploads.kcwiki.cn/commons/6/64/134-0700.mp3",
+    "time_word_cn": "qidian……唔……夕云姐姐～"
+},
+{
+    "name": "卷云",
+    "time": "〇八〇〇时报",
+    "time_word_jp": "はち……じ？　うわあぁ！？　寝落ちしちゃったぁ",
+    "href": "https://uploads.kcwiki.cn/commons/5/57/134-0800.mp3",
+    "time_word_cn": "ba……dian？啊呀！不小心睡着啦！"
+},
+{
+    "name": "卷云",
+    "time": "〇九〇〇时报",
+    "time_word_jp": "9時です！本日も一日よろしくです、びしっ！",
+    "href": "https://uploads.kcwiki.cn/commons/1/19/134-0900.mp3",
+    "time_word_cn": "九点了！今天也多多关照啦，嘿嘿！"
+},
+{
+    "name": "卷云",
+    "time": "一〇〇〇时报",
+    "time_word_jp": "10時になりましたぁ。今日の演習相手はどんな人かなぁ？",
+    "href": "https://uploads.kcwiki.cn/commons/3/3c/134-1000.mp3",
+    "time_word_cn": "十点了，今天的演习对手会是怎样的人呢…"
+},
+{
+    "name": "卷云",
+    "time": "一一〇〇时报",
+    "time_word_jp": "11時です！司令官様の今日のお昼はなぁに？",
+    "href": "https://uploads.kcwiki.cn/commons/0/0b/134-1100.mp3",
+    "time_word_cn": "十一点了！司令官大人，今天的午饭吃什～么呢？"
+},
+{
+    "name": "卷云",
+    "time": "一二〇〇时报",
+    "time_word_jp": "12時。天気のいい日はぁ、甲板でお昼もいいですよねぇ♪",
+    "href": "https://uploads.kcwiki.cn/commons/7/77/134-1200.mp3",
+    "time_word_cn": "十二点，今天天气真好啊，在甲板上吃午饭如何？"
+},
+{
+    "name": "卷云",
+    "time": "一三〇〇时报",
+    "time_word_jp": "午後1時。こうして司令官様とぽ～っとしてると、なんか落ち着くな～",
+    "href": "https://uploads.kcwiki.cn/commons/6/6f/134-1300.mp3",
+    "time_word_cn": "下午一点，这样和司令官大人悠～闲地度过，总觉得好安心啊。"
+},
+{
+    "name": "卷云",
+    "time": "一四〇〇时报",
+    "time_word_jp": "午後2時。司令官様ぁ、特訓しよう、特訓！",
+    "href": "https://uploads.kcwiki.cn/commons/d/dd/134-1400.mp3",
+    "time_word_cn": "下午两点了，司令官大人，来特训吧！特训！"
+},
+{
+    "name": "卷云",
+    "time": "一五〇〇时报",
+    "time_word_jp": "午後3時。はっ！　忘れてた！　金剛さん主催のティーパーティーに誘われてるんだったぁ！",
+    "href": "https://uploads.kcwiki.cn/commons/2/23/134-1500.mp3",
+    "time_word_cn": "下午三点！啊！都忘掉了！金刚姐姐邀请了我们去茶会的！"
+},
+{
+    "name": "卷云",
+    "time": "一六〇〇时报",
+    "time_word_jp": "午後4時。まぁー、司令官様と一緒だから、いっかなぁ？　ティーパーティー行かなくても？",
+    "href": "https://uploads.kcwiki.cn/commons/7/7b/134-1600.mp3",
+    "time_word_cn": "下午四点，也好啦，反正都跟司令官大人待在一起了，干脆就不去了吧？"
+},
+{
+    "name": "卷云",
+    "time": "一七〇〇时报",
+    "time_word_jp": "夕方5時で～す、日が落ちますね～。",
+    "href": "https://uploads.kcwiki.cn/commons/b/b2/134-1700.mp3",
+    "time_word_cn": "傍晚五点啦～太阳下山了呢～"
+},
+{
+    "name": "卷云",
+    "time": "一八〇〇时报",
+    "time_word_jp": "午後6時になりましたぁ～。",
+    "href": "https://uploads.kcwiki.cn/commons/0/07/134-1800.mp3",
+    "time_word_cn": "傍晚六点啦！"
+},
+{
+    "name": "卷云",
+    "time": "一九〇〇时报",
+    "time_word_jp": "夜7時。司令官様、ご飯を所望します！",
+    "href": "https://uploads.kcwiki.cn/commons/5/5b/134-1900.mp3",
+    "time_word_cn": "晚上7点，司令官，我想吃饭！"
+},
+{
+    "name": "卷云",
+    "time": "二〇〇〇时报",
+    "time_word_jp": "夜8時です。司令官様、あのー　あの～ お風呂とか…入ってもいい？",
+    "href": "https://uploads.kcwiki.cn/commons/9/91/134-2000.mp3",
+    "time_word_cn": "晚上八点了，司令官大人，那个……那个……洗个澡可以嘛……"
+},
+{
+    "name": "卷云",
+    "time": "二一〇〇时报",
+    "time_word_jp": "9時です。お風呂お先に頂きましたぁ…あれ？　メガネメガネぇ～",
+    "href": "https://uploads.kcwiki.cn/commons/3/32/134-2100.mp3",
+    "time_word_cn": "九点了，那么我先去洗啦。哎呀，眼镜呢眼镜呢～？"
+},
+{
+    "name": "卷云",
+    "time": "二二〇〇时报",
+    "time_word_jp": "夜10時です。司令官様？　調子はいかがですか？",
+    "href": "https://uploads.kcwiki.cn/commons/8/8d/134-2200.mp3",
+    "time_word_cn": "晚上十点了，司令官大人，感觉如何啊？"
+},
+{
+    "name": "卷云",
+    "time": "二三〇〇时报",
+    "time_word_jp": "11時です。司令官様ぁ、巻雲眠くなってきましたよぉ",
+    "href": "https://uploads.kcwiki.cn/commons/6/62/134-2300.mp3",
+    "time_word_cn": "十一点了，司令官大人，卷云好困啊～"
 },
 {
     "name": "长波",
@@ -11417,18 +11921,18 @@
     "time_word_cn": "二十二点。好厉害啊，这里的大家都好擅长夜战啊。好惊讶。"
 },
 {
-    "name": "Z3",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "0時よ。ふぅん、すっかり深夜ね。",
-    "href": "https://uploads.kcwiki.cn/commons/9/9f/175a-0000.mp3",
-    "time_word_cn": "0点了。恩，完全深夜了呢。"
-},
-{
     "name": "Z1",
     "time": "二三〇〇时报",
     "time_word_jp": "二十三時。提督、今日もお疲れだったね、また明日もガンバろ",
     "href": "https://uploads.kcwiki.cn/commons/5/5e/174a-2300.mp3",
     "time_word_cn": "二十三点了。提督，今天也辛苦了。明天也加油了。"
+},
+{
+    "name": "Z3",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "0時よ。ふぅん、すっかり深夜ね。",
+    "href": "https://uploads.kcwiki.cn/commons/9/9f/175a-0000.mp3",
+    "time_word_cn": "0点了。恩，完全深夜了呢。"
 },
 {
     "name": "Z3",
@@ -11599,13 +12103,6 @@
     "time_word_cn": "呜哇！？正好0点！今天是，由本欧根·亲王来担当时报的工作呢。好的，知道啦！交给我吧！"
 },
 {
-    "name": "俾斯麦",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "深夜零時。少し眠いわね。",
-    "href": "https://uploads.kcwiki.cn/commons/e/e7/172-0000.mp3",
-    "time_word_cn": "深夜零点。有点困了。"
-},
-{
     "name": "欧根亲王",
     "time": "〇一〇〇时报",
     "time_word_jp": "午前1時になりましたー！　こんな感じで良い、かな？ぁあ、そう！　よかったぁ！",
@@ -11639,83 +12136,6 @@
     "time_word_jp": "5時になりましたー！　Guten Morgen、気持ちが良い朝！　がんばっていきましょー！",
     "href": "https://uploads.kcwiki.cn/commons/3/37/177-0500.mp3",
     "time_word_cn": "五点到啦！Guten Morgen（早上好），感觉很舒服的早晨呢！加油上吧！"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇一〇〇时报",
-    "time_word_jp": "午前一時。提督、そろそろ寝ないの？",
-    "href": "https://uploads.kcwiki.cn/commons/9/98/172-0100.mp3",
-    "time_word_cn": "凌晨一点。提督，差不多该去睡觉了吧？"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇二〇〇时报",
-    "time_word_jp": "午前二時。ふわぁ～…っ、私もさすがに眠いわ…",
-    "href": "https://uploads.kcwiki.cn/commons/5/54/172-0200.mp3",
-    "time_word_cn": "凌晨两点。呼啊~…连我都觉得有点困了…"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇三〇〇时报",
-    "time_word_jp": "午前三時。明日ちゃんと起きられるの？朝は時間厳守でお願いね？",
-    "href": "https://uploads.kcwiki.cn/commons/1/19/172-0300.mp3",
-    "time_word_cn": "凌晨三点。明天早上能顺利起床吗？那就拜托你早上要严格遵守时间哦？"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇四〇〇时报",
-    "time_word_jp": "午前四時。私はちょっと仮眠するわ。完徹はお肌に良くないし。",
-    "href": "https://uploads.kcwiki.cn/commons/4/49/172-0400.mp3",
-    "time_word_cn": "凌晨四点。我先去小睡一会。熬夜对皮肤不好的。"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇五〇〇时报",
-    "time_word_jp": "朝五時よ。さあ、ピシッと起きて！Guten Morgen!",
-    "href": "https://uploads.kcwiki.cn/commons/5/5c/172-0500.mp3",
-    "time_word_cn": "早晨五点。好了，快点起床！早上好！"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇六〇〇时报",
-    "time_word_jp": "朝六時。提督、さあ、いろいろ朝のうちに片付けてしまいましょう！",
-    "href": "https://uploads.kcwiki.cn/commons/1/1c/172-0600.mp3",
-    "time_word_cn": "早晨六点。提督，好了，趁着早上把一些乱七八糟的事都解决掉吧！"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇七〇〇时报",
-    "time_word_jp": "午前七時。提督、朝食の時間よ。私には何をご用意して頂けるの？",
-    "href": "https://uploads.kcwiki.cn/commons/d/db/172-0700.mp3",
-    "time_word_cn": "早晨七点。提督，吃早饭了。能帮我准备点什么吗？"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇八〇〇时报",
-    "time_word_jp": "午前八時。提督の作ってくれた朝食もなかなか良いわ。日本式も悪くないわね。",
-    "href": "https://uploads.kcwiki.cn/commons/a/ac/172-0800.mp3",
-    "time_word_cn": "上午八点。提督做的早饭相当不错呢。日式早餐也很好。"
-},
-{
-    "name": "俾斯麦",
-    "time": "〇九〇〇时报",
-    "time_word_jp": "午前九時。さあ、今日も通商破壊戦に繰り出しましょう！…え、違うの？",
-    "href": "https://uploads.kcwiki.cn/commons/c/cd/172-0900.mp3",
-    "time_word_cn": "上午九点。好，今天也要不断进行通商破坏作战！诶，不是吗？"
-},
-{
-    "name": "俾斯麦",
-    "time": "一〇〇〇时报",
-    "time_word_jp": "午前十時。金剛？長門？いえ、知らないわ。誰？強いの？",
-    "href": "https://uploads.kcwiki.cn/commons/a/ab/172-1000.mp3",
-    "time_word_cn": "上午十点。金刚？长门？不，我不认识啊。是谁？很厉害吗？"
-},
-{
-    "name": "俾斯麦",
-    "time": "一一〇〇时报",
-    "time_word_jp": "十一時よ。…大和クラス？…なんか手強い感じはするわね。会ってみたいわ。",
-    "href": "https://uploads.kcwiki.cn/commons/2/22/172-1100.mp3",
-    "time_word_cn": "十一点了哦。大和级？感觉很强的样子呢。很想见一见。"
 },
 {
     "name": "欧根亲王",
@@ -11809,6 +12229,125 @@
     "time_word_cn": "十八点到了。要准备晚饭了呢。今天，吃凉菜可以吗？诶，不要？那热菜可以吗？"
 },
 {
+    "name": "欧根亲王",
+    "time": "一九〇〇时报",
+    "time_word_jp": "19時です。では、夕食はEisbeinのポトフにしてみました。スープにも味が染みだしていていいでしょ？最後は、ご飯を入れて雑炊風にしても美味しいんです！",
+    "href": "https://uploads.kcwiki.cn/commons/0/0f/177-1900.mp3",
+    "time_word_cn": "十九点到了。那么，晚饭就吃猪脚火锅吧。汤料的味道也全都浸了进去很不错对吧？最后再把饭加进去做成杂煮也很美味！"
+},
+{
+    "name": "欧根亲王",
+    "time": "二〇〇〇时报",
+    "time_word_jp": "20時になりました。日本の重巡も、充実しているんですねぇ。ふむふむ、う～んなるほど…ふむ、ふむ…",
+    "href": "https://uploads.kcwiki.cn/commons/d/d4/177-2000.mp3",
+    "time_word_cn": "二十点到了。日本的重巡也，很充实呢。唔姆唔姆，嗯~原来如此……唔姆唔姆…"
+},
+{
+    "name": "欧根亲王",
+    "time": "二一〇〇时报",
+    "time_word_jp": "21時。え、得意技…ですか？　そーですねぇ、艦砲で押し寄せる戦車の群れを、結構叩きました。これも割と得意です！はい！",
+    "href": "https://uploads.kcwiki.cn/commons/0/02/177-2100.mp3",
+    "time_word_cn": "二十一点。诶，擅长什么…是吗？是啊，之前有过有过把舰炮压低，狠狠的揍了一顿战车群这回事儿"
+},
+{
+    "name": "欧根亲王",
+    "time": "二二〇〇时报",
+    "time_word_jp": "すっかり夜ですねぇ、22時です。Admiralさん、今日も一日、作戦お疲れ様でした！",
+    "href": "https://uploads.kcwiki.cn/commons/5/5e/177-2200.mp3",
+    "time_word_cn": "完全入夜了呢，二十二点到了。Admiral，今天一天的，作战真是辛苦您了！"
+},
+{
+    "name": "欧根亲王",
+    "time": "二三〇〇时报",
+    "time_word_jp": "23時です。ん～そろそろ私も休ませて貰いますね……Gute Nacht……っえ、だめぇ……？",
+    "href": "https://uploads.kcwiki.cn/commons/a/a5/177-2300.mp3",
+    "time_word_cn": "二十三点到了。嗯~差不多我也该休息了……Gute Nacht（晚安）……诶，不行……？"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "深夜零時。少し眠いわね。",
+    "href": "https://uploads.kcwiki.cn/commons/e/e7/172-0000.mp3",
+    "time_word_cn": "深夜零点。有点困了。"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇一〇〇时报",
+    "time_word_jp": "午前一時。提督、そろそろ寝ないの？",
+    "href": "https://uploads.kcwiki.cn/commons/9/98/172-0100.mp3",
+    "time_word_cn": "凌晨一点。提督，差不多该去睡觉了吧？"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇二〇〇时报",
+    "time_word_jp": "午前二時。ふわぁ～…っ、私もさすがに眠いわ…",
+    "href": "https://uploads.kcwiki.cn/commons/5/54/172-0200.mp3",
+    "time_word_cn": "凌晨两点。呼啊~…连我都觉得有点困了…"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇三〇〇时报",
+    "time_word_jp": "午前三時。明日ちゃんと起きられるの？朝は時間厳守でお願いね？",
+    "href": "https://uploads.kcwiki.cn/commons/1/19/172-0300.mp3",
+    "time_word_cn": "凌晨三点。明天早上能顺利起床吗？那就拜托你早上要严格遵守时间哦？"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇四〇〇时报",
+    "time_word_jp": "午前四時。私はちょっと仮眠するわ。完徹はお肌に良くないし。",
+    "href": "https://uploads.kcwiki.cn/commons/4/49/172-0400.mp3",
+    "time_word_cn": "凌晨四点。我先去小睡一会。熬夜对皮肤不好的。"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇五〇〇时报",
+    "time_word_jp": "朝五時よ。さあ、ピシッと起きて！Guten Morgen!",
+    "href": "https://uploads.kcwiki.cn/commons/5/5c/172-0500.mp3",
+    "time_word_cn": "早晨五点。好了，快点起床！早上好！"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇六〇〇时报",
+    "time_word_jp": "朝六時。提督、さあ、いろいろ朝のうちに片付けてしまいましょう！",
+    "href": "https://uploads.kcwiki.cn/commons/1/1c/172-0600.mp3",
+    "time_word_cn": "早晨六点。提督，好了，趁着早上把一些乱七八糟的事都解决掉吧！"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇七〇〇时报",
+    "time_word_jp": "午前七時。提督、朝食の時間よ。私には何をご用意して頂けるの？",
+    "href": "https://uploads.kcwiki.cn/commons/d/db/172-0700.mp3",
+    "time_word_cn": "早晨七点。提督，吃早饭了。能帮我准备点什么吗？"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇八〇〇时报",
+    "time_word_jp": "午前八時。提督の作ってくれた朝食もなかなか良いわ。日本式も悪くないわね。",
+    "href": "https://uploads.kcwiki.cn/commons/a/ac/172-0800.mp3",
+    "time_word_cn": "上午八点。提督做的早饭相当不错呢。日式早餐也很好。"
+},
+{
+    "name": "俾斯麦",
+    "time": "〇九〇〇时报",
+    "time_word_jp": "午前九時。さあ、今日も通商破壊戦に繰り出しましょう！…え、違うの？",
+    "href": "https://uploads.kcwiki.cn/commons/c/cd/172-0900.mp3",
+    "time_word_cn": "上午九点。好，今天也要不断进行通商破坏作战！诶，不是吗？"
+},
+{
+    "name": "俾斯麦",
+    "time": "一〇〇〇时报",
+    "time_word_jp": "午前十時。金剛？長門？いえ、知らないわ。誰？強いの？",
+    "href": "https://uploads.kcwiki.cn/commons/a/ab/172-1000.mp3",
+    "time_word_cn": "上午十点。金刚？长门？不，我不认识啊。是谁？很厉害吗？"
+},
+{
+    "name": "俾斯麦",
+    "time": "一一〇〇时报",
+    "time_word_jp": "十一時よ。…大和クラス？…なんか手強い感じはするわね。会ってみたいわ。",
+    "href": "https://uploads.kcwiki.cn/commons/2/22/172-1100.mp3",
+    "time_word_cn": "十一点了哦。大和级？感觉很强的样子呢。很想见一见。"
+},
+{
     "name": "俾斯麦",
     "time": "一二〇〇时报",
     "time_word_jp": "十二時を私がお知らせするわね。さあ、お昼を用意してきても良いのよ？",
@@ -11898,41 +12437,6 @@
     "time_word_jp": "零時。新しい一日だね",
     "href": "https://uploads.kcwiki.cn/commons/2/22/174a-0000.mp3",
     "time_word_cn": "零点。新的一天呢。"
-},
-{
-    "name": "欧根亲王",
-    "time": "一九〇〇时报",
-    "time_word_jp": "19時です。では、夕食はEisbeinのポトフにしてみました。スープにも味が染みだしていていいでしょ？最後は、ご飯を入れて雑炊風にしても美味しいんです！",
-    "href": "https://uploads.kcwiki.cn/commons/0/0f/177-1900.mp3",
-    "time_word_cn": "十九点到了。那么，晚饭就吃猪脚火锅吧。汤料的味道也全都浸了进去很不错对吧？最后再把饭加进去做成杂煮也很美味！"
-},
-{
-    "name": "欧根亲王",
-    "time": "二〇〇〇时报",
-    "time_word_jp": "20時になりました。日本の重巡も、充実しているんですねぇ。ふむふむ、う～んなるほど…ふむ、ふむ…",
-    "href": "https://uploads.kcwiki.cn/commons/d/d4/177-2000.mp3",
-    "time_word_cn": "二十点到了。日本的重巡也，很充实呢。唔姆唔姆，嗯~原来如此……唔姆唔姆…"
-},
-{
-    "name": "欧根亲王",
-    "time": "二一〇〇时报",
-    "time_word_jp": "21時。え、得意技…ですか？　そーですねぇ、艦砲で押し寄せる戦車の群れを、結構叩きました。これも割と得意です！はい！",
-    "href": "https://uploads.kcwiki.cn/commons/0/02/177-2100.mp3",
-    "time_word_cn": "二十一点。诶，擅长什么…是吗？是啊，之前有过有过把舰炮压低，狠狠的揍了一顿战车群这回事儿"
-},
-{
-    "name": "欧根亲王",
-    "time": "二二〇〇时报",
-    "time_word_jp": "すっかり夜ですねぇ、22時です。Admiralさん、今日も一日、作戦お疲れ様でした！",
-    "href": "https://uploads.kcwiki.cn/commons/5/5e/177-2200.mp3",
-    "time_word_cn": "完全入夜了呢，二十二点到了。Admiral，今天一天的，作战真是辛苦您了！"
-},
-{
-    "name": "欧根亲王",
-    "time": "二三〇〇时报",
-    "time_word_jp": "23時です。ん～そろそろ私も休ませて貰いますね……Gute Nacht……っえ、だめぇ……？",
-    "href": "https://uploads.kcwiki.cn/commons/a/a5/177-2300.mp3",
-    "time_word_cn": "二十三点到了。嗯~差不多我也该休息了……Gute Nacht（晚安）……诶，不行……？"
 },
 {
     "name": "Z1",
@@ -14560,13 +15064,6 @@
     "time_word_cn": "1500！啊啊，是这个嘛～？这是，从山云的家庭菜园里采摘的蔬菜～这是我在拉包尔基地学到的～"
 },
 {
-    "name": "野分",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "司令、本日もこの野分が秘書艦を務めさせていただきます。宜しくお願いします。",
-    "href": "https://uploads.kcwiki.cn/commons/3/30/215a-0000.mp3",
-    "time_word_cn": "司令，今天也是由野分我来担任秘书舰。还请多多指教。"
-},
-{
     "name": "山云",
     "time": "一六〇〇时报",
     "time_word_jp": "ヒトロクーマルマルー！この野菜を煮て－、お砂糖を沢山入れてー、ジャムを作るとー、意外と美味しいんですー♪ほら、ねー？",
@@ -14621,6 +15118,13 @@
     "time_word_jp": "フタサンマルマルー！よかったー。朝雲姉、お仕事なのねー。司令さん、山雲、安心しましたー。はらはらしましたー",
     "href": "https://uploads.kcwiki.cn/commons/1/1f/214a-2300.mp3",
     "time_word_cn": "2300！太好了～。朝云姐，在工作呢～。山云，放心了呢～。山云，刚才真的很担心呢～"
+},
+{
+    "name": "野分",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "司令、本日もこの野分が秘書艦を務めさせていただきます。宜しくお願いします。",
+    "href": "https://uploads.kcwiki.cn/commons/3/30/215a-0000.mp3",
+    "time_word_cn": "司令，今天也是由野分我来担任秘书舰。还请多多指教。"
 },
 {
     "name": "野分",
@@ -14698,13 +15202,6 @@
     "time_word_jp": "ヒトヒトマルマル。司令、そろそろお昼ですね。何にします。野分がご用意します。",
     "href": "https://uploads.kcwiki.cn/commons/a/a1/215a-1100.mp3",
     "time_word_cn": "一一零零。司令，差不多该吃午饭了呢。想吃什么呢？请让野分来为您准备。"
-},
-{
-    "name": "秋月",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "司令、この秋月が、時刻を報告いたします。現在時刻、〇〇〇〇、です！",
-    "href": "https://uploads.kcwiki.cn/commons/b/b9/221a-0000.mp3",
-    "time_word_cn": "司令，由秋月来为您报时。现在时刻，0000！"
 },
 {
     "name": "野分",
@@ -14789,167 +15286,6 @@
     "time_word_jp": "フタサンマルマル。司令、本日も大変お疲れ様でした。野分、明日も頑張ります。",
     "href": "https://uploads.kcwiki.cn/commons/8/84/215a-2300.mp3",
     "time_word_cn": "二三零零。司令，今天也辛苦了。野分，明天也会加油的！"
-},
-{
-    "name": "秋月",
-    "time": "〇一〇〇时报",
-    "time_word_jp": "〇一〇〇をご報告します。こんな形でよろしいでしょうか、司令？",
-    "href": "https://uploads.kcwiki.cn/commons/d/df/221a-0100.mp3",
-    "time_word_cn": "报告，0100。这样报告可以吗？司令。"
-},
-{
-    "name": "秋月",
-    "time": "〇二〇〇时报",
-    "time_word_jp": "〇二〇〇です。今夜は月が…月が綺麗ですね",
-    "href": "https://uploads.kcwiki.cn/commons/e/e3/221a-0200.mp3",
-    "time_word_cn": "0200。今晚月亮好漂亮啊，司令。嗯？司令？"
-},
-{
-    "name": "秋月",
-    "time": "〇三〇〇时报",
-    "time_word_jp": "〇三〇〇です、司令。この時間はとても静かですね。本当に静かです…",
-    "href": "https://uploads.kcwiki.cn/commons/5/55/221a-0300.mp3",
-    "time_word_cn": "0300。司令。这个时间好安静啊。真的很安静…"
-},
-{
-    "name": "秋月",
-    "time": "〇四〇〇时报",
-    "time_word_jp": "〇四〇〇です。司令、眠くはありませんか？濃い目のお茶、入れましょう",
-    "href": "https://uploads.kcwiki.cn/commons/5/5d/221a-0400.mp3",
-    "time_word_cn": "0400。司令，睡不着吗？我来给您泡杯浓茶吧。"
-},
-{
-    "name": "秋月",
-    "time": "〇五〇〇时报",
-    "time_word_jp": "〇五〇〇となりました、司令。はい。秋月、総員起こしの準備、了解です！",
-    "href": "https://uploads.kcwiki.cn/commons/b/bf/221a-0500.mp3",
-    "time_word_cn": "到0500了，司令。是！秋月，准备叫醒舰队全员，了解了。"
-},
-{
-    "name": "秋月",
-    "time": "〇六〇〇时报",
-    "time_word_jp": "〇六〇〇です。おはようございます、司令。はい、気持ちのよい朝ですね♪",
-    "href": "https://uploads.kcwiki.cn/commons/b/b0/221a-0600.mp3",
-    "time_word_cn": "0600。早上好，司令。嗯，是一个令人神清气爽的早晨呢~"
-},
-{
-    "name": "秋月",
-    "time": "〇七〇〇时报",
-    "time_word_jp": "〇七〇〇です。司令、朝食の用意、こちらです。簡単で…すいません。",
-    "href": "https://uploads.kcwiki.cn/commons/5/5c/221a-0700.mp3",
-    "time_word_cn": "0700。司令，早饭准备好了。稍微有些简朴，抱歉。"
-},
-{
-    "name": "秋月",
-    "time": "〇八〇〇时报",
-    "time_word_jp": "〇八〇〇。第六一駆逐隊、出撃準備、完了です。いつでも抜錨、できます！",
-    "href": "https://uploads.kcwiki.cn/commons/6/63/221a-0800.mp3",
-    "time_word_cn": "0800。第六十一驱逐队，出击准备完成。可以随时起航！"
-},
-{
-    "name": "秋月",
-    "time": "〇九〇〇时报",
-    "time_word_jp": "〇九〇〇です。護衛する主力艦は戦艦？空母ですか？お任せください♪",
-    "href": "https://uploads.kcwiki.cn/commons/1/1c/221a-0900.mp3",
-    "time_word_cn": "0900。要护卫的主力舰是战舰吗？还是航母？交给我就好了♪"
-},
-{
-    "name": "秋月",
-    "time": "一〇〇〇时报",
-    "time_word_jp": "一〇〇〇をご報告します。司令、演習もしっかりこなしていきたいですね。",
-    "href": "https://uploads.kcwiki.cn/commons/1/10/221a-1000.mp3",
-    "time_word_cn": "报告，1000。司令，演习也要好好的打才行。"
-},
-{
-    "name": "秋月",
-    "time": "一一〇〇时报",
-    "time_word_jp": "一一〇〇です。司令、お昼はどうなさいますか？秋月がご用意しましょうか？",
-    "href": "https://uploads.kcwiki.cn/commons/9/9b/221a-1100.mp3",
-    "time_word_cn": "1100。司令，午饭怎么办？就让秋月来为您准备吧？"
-},
-{
-    "name": "秋月",
-    "time": "一二〇〇时报",
-    "time_word_jp": "一二〇〇です。司令、握り飯と沢庵のお昼です。あ…簡単で、すいません…",
-    "href": "https://uploads.kcwiki.cn/commons/7/77/221a-1200.mp3",
-    "time_word_cn": "1200。司令，今天的午饭就是饭团和咸菜了。啊，这么简朴的…对不起…"
-},
-{
-    "name": "秋月",
-    "time": "一三〇〇时报",
-    "time_word_jp": "一三〇〇となりました。司令、すいません。夕食は豪華に頑張りますから！",
-    "href": "https://uploads.kcwiki.cn/commons/8/88/221a-1300.mp3",
-    "time_word_cn": "到1300了。司令，对不起，晚饭一定为您好好地准备一顿！"
-},
-{
-    "name": "秋月",
-    "time": "一四〇〇时报",
-    "time_word_jp": "一四〇〇です。初月、元気かなぁ…あ、司令。午後も頑張りましょう！",
-    "href": "https://uploads.kcwiki.cn/commons/8/84/221a-1400.mp3",
-    "time_word_cn": "1400。不知道初月她还好吗……啊，司令，下午也要加油了！"
-},
-{
-    "name": "秋月",
-    "time": "一五〇〇时报",
-    "time_word_jp": "一五〇〇です。あ、はい。明石さんにもとってもお世話になりました。",
-    "href": "https://uploads.kcwiki.cn/commons/4/45/221a-1500.mp3",
-    "time_word_cn": "1500。啊，是的，受到了明石的很多照顾！"
-},
-{
-    "name": "秋月",
-    "time": "一六〇〇时报",
-    "time_word_jp": "一六〇〇です。はい、後部にも高射装置を付けましたから、もう万全です！",
-    "href": "https://uploads.kcwiki.cn/commons/6/60/221a-1600.mp3",
-    "time_word_cn": "1600。是的，后部也有高射装置，已经万无一失！"
-},
-{
-    "name": "秋月",
-    "time": "一七〇〇时报",
-    "time_word_jp": "一七〇〇をご報告します。日が落ちますから、対空警戒もここまでですね。",
-    "href": "https://uploads.kcwiki.cn/commons/8/8e/221a-1700.mp3",
-    "time_word_cn": "报告，1700。太阳下山了，对空警戒也到此为止了。"
-},
-{
-    "name": "秋月",
-    "time": "一八〇〇时报",
-    "time_word_jp": "一八〇〇となりました。はい、夕食の準備、秋月、豪華に頑張ります！",
-    "href": "https://uploads.kcwiki.cn/commons/1/17/221a-1800.mp3",
-    "time_word_cn": "到1800了。嗯，晚餐就让秋月来为您豪华地准备一番！"
-},
-{
-    "name": "秋月",
-    "time": "一九〇〇时报",
-    "time_word_jp": "一九〇〇です！熱々の麦飯、沢庵、そして牛缶に、お味噌汁も♪どう？",
-    "href": "https://uploads.kcwiki.cn/commons/0/05/221a-1900.mp3",
-    "time_word_cn": "1900了！热麦饭，咸菜，还有牛肉罐头和味增汤♪如何呀？"
-},
-{
-    "name": "秋月",
-    "time": "二〇〇〇时报",
-    "time_word_jp": "二〇〇〇。はい、秋月、今日はすこし奮発してしまいました。どうでした？",
-    "href": "https://uploads.kcwiki.cn/commons/1/1c/221a-2000.mp3",
-    "time_word_cn": "2000。是，秋月今天稍微努力了一下。如何呀？"
-},
-{
-    "name": "秋月",
-    "time": "二一〇〇时报",
-    "time_word_jp": "二一〇〇です。え、涼月ですか？はい、自慢の妹ですよ。ええ！",
-    "href": "https://uploads.kcwiki.cn/commons/e/e1/221a-2100.mp3",
-    "time_word_cn": "2100。欸？凉月？是我引以为傲的妹妹哦。嗯！"
-},
-{
-    "name": "秋月",
-    "time": "二二〇〇时报",
-    "time_word_jp": "二二〇〇。あ、翔鶴さん、瑞鶴さん。お疲れ様です。はい、大丈夫です！",
-    "href": "https://uploads.kcwiki.cn/commons/a/a1/221a-2200.mp3",
-    "time_word_cn": "2200。啊，翔鹤姐、瑞鹤姐，辛苦了！是的，没问题的！"
-},
-{
-    "name": "秋月",
-    "time": "二三〇〇时报",
-    "time_word_jp": "二三〇〇。少し、緊張しました。はぁ…司令、本日も大変お疲れ様でした。",
-    "href": "https://uploads.kcwiki.cn/commons/5/57/221a-2300.mp3",
-    "time_word_cn": "2300。稍微有些紧张了。哈，司令，今天也辛苦了！"
 },
 {
     "name": "照月",
@@ -19313,18 +19649,18 @@
     "time_word_cn": "二二〇〇。提督，我从夜战平安回来啦。川内和大家都没事儿呢。太棒啦。"
 },
 {
-    "name": "速吸",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "提督さん、日付が変わりました。本日はこの速吸が、時刻をお知らせしますね。はい、任せて下さい！",
-    "href": "https://uploads.kcwiki.cn/commons/c/c8/260a-0000.mp3",
-    "time_word_cn": "提督，已经第二天啦。今天由速吸来给您报时！是的，请交给我！"
-},
-{
     "name": "江风",
     "time": "二三〇〇时报",
     "time_word_jp": "提督、フタサンマルマルだよっ。今日も疲れたね、お疲れさん。明日も頑張ろう、おーっ。",
     "href": "https://uploads.kcwiki.cn/commons/0/06/259a-2300.mp3",
     "time_word_cn": "提督，二三〇〇了哟。今天也好累啊，辛苦啦。明天也加油啦，噢！"
+},
+{
+    "name": "速吸",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "提督さん、日付が変わりました。本日はこの速吸が、時刻をお知らせしますね。はい、任せて下さい！",
+    "href": "https://uploads.kcwiki.cn/commons/c/c8/260a-0000.mp3",
+    "time_word_cn": "提督，已经第二天啦。今天由速吸来给您报时！是的，请交给我！"
 },
 {
     "name": "速吸",
@@ -19425,13 +19761,6 @@
     "time_word_cn": "提督，一四〇〇了。下午也要加油了！"
 },
 {
-    "name": "鹿岛",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "提督さん。本日は私、鹿島がお側で秘書艦を務めさせていただきますね？　…うふふっ、嬉しい♪",
-    "href": "https://uploads.kcwiki.cn/commons/8/89/265a-0000.mp3",
-    "time_word_cn": "提督。本日就由我，鹿岛在您身边为您担任秘书舰哦？...嗯哼哼，真高兴♪"
-},
-{
     "name": "速吸",
     "time": "一五〇〇时报",
     "time_word_jp": "ヒトゴーマルマルです。提督さん、ちょっとお茶とお菓子とかどうですか？　速吸、ご用意しますね？　待ってて",
@@ -19493,6 +19822,13 @@
     "time_word_jp": "フタサンマルマルです！　提督さん、今日も1日お疲れ様でした！　明日も頑張りましょう、はい！",
     "href": "https://uploads.kcwiki.cn/commons/a/af/260a-2300.mp3",
     "time_word_cn": "二三〇〇了！提督，今天也辛苦了！明天也要加油了！"
+},
+{
+    "name": "鹿岛",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "提督さん。本日は私、鹿島がお側で秘書艦を務めさせていただきますね？　…うふふっ、嬉しい♪",
+    "href": "https://uploads.kcwiki.cn/commons/8/89/265a-0000.mp3",
+    "time_word_cn": "提督。本日就由我，鹿岛在您身边为您担任秘书舰哦？...嗯哼哼，真高兴♪"
 },
 {
     "name": "鹿岛",
@@ -19570,13 +19906,6 @@
     "time_word_jp": "ヒトヒトマルマル。もぉ、青葉さんったらびっくりさせて！　寝癖だなんて…私、髪はいつだって…あ、な、何でもありません…",
     "href": "https://uploads.kcwiki.cn/commons/3/31/265a-1100.mp3",
     "time_word_cn": "一一零零。讨厌，青叶小姐真是的吓我一跳！没睡好翘起来的头发什么的...我，头发可是一直都...啊，什，什么都没有..."
-},
-{
-    "name": "神风",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "よし！今日は私が秘書艦として、司令官のお世話をしっかりしてあげる！いいでしょ？ちょうど深夜零時、時報も任せておいて！",
-    "href": "https://uploads.kcwiki.cn/commons/5/57/276-0000.mp3",
-    "time_word_cn": "好！今天就由我来作为秘书舰照顾司令官吧！没问题吧？刚好深夜零点，时报也交给我吧！"
 },
 {
     "name": "鹿岛",
@@ -19661,6 +19990,13 @@
     "time_word_jp": "フタサンマルマルです。提督さん、本日も大変お疲れ様でした。私、戦闘は得意ではありませんが…旗艦任務、明日も頑張ります♪",
     "href": "https://uploads.kcwiki.cn/commons/2/2a/265a-2300.mp3",
     "time_word_cn": "二三零零到了。提督，本日也真是辛苦您了。我，虽然不是很擅长战斗...旗舰任务，明天也会加油的♪"
+},
+{
+    "name": "神风",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "よし！今日は私が秘書艦として、司令官のお世話をしっかりしてあげる！いいでしょ？ちょうど深夜零時、時報も任せておいて！",
+    "href": "https://uploads.kcwiki.cn/commons/5/57/276-0000.mp3",
+    "time_word_cn": "好！今天就由我来作为秘书舰照顾司令官吧！没问题吧？刚好深夜零点，时报也交给我吧！"
 },
 {
     "name": "神风",
@@ -20521,7 +20857,7 @@
     "time": "〇三〇〇时报",
     "time_word_jp": "マルサンマルマルで…あっ、こんな小さな声じゃなくていい？ん、分かった！",
     "href": "https://uploads.kcwiki.cn/commons/6/65/283a-0300.mp3",
-    "time_word_cn": "零三零零…啊，不用这么小声也可以？嗯，知道了！"
+    "time_word_cn": "零三零零…啊，不用这幺小声也可以？嗯，知道了！"
 },
 {
     "name": "伊26",
@@ -22684,168 +23020,168 @@
     "time": "〇〇〇〇时报",
     "time_word_jp": "そうね、今日は私が面倒みたあげます。いいでしょう？ふふん、よかった。任せなさい。",
     "href": "https://uploads.kcwiki.cn/commons/b/b5/320a-0000.mp3",
-    "time_word_cn": "對哦，今天該我來照顧你啦。怎麽樣？嘻嘻，太好了。包在我身上。"
+    "time_word_cn": "对哦，今天该我来照顾你啦。怎么样？嘻嘻，太好了。包在我身上。"
 },
 {
     "name": "雅努斯",
     "time": "〇一〇〇时报",
     "time_word_jp": "It’s 1 o’clock. んー、何からしましょうか？何かしてほしいこと、あります？",
     "href": "https://uploads.kcwiki.cn/commons/f/f4/320a-0100.mp3",
-    "time_word_cn": "一點鐘啦。嗯...首先要我做什麽呢？你有沒有什麽想法呢？"
+    "time_word_cn": "一点钟啦。嗯...首先要我做什么呢？你有没有什么想法呢？"
 },
 {
     "name": "雅努斯",
     "time": "〇二〇〇时报",
     "time_word_jp": "It’s 2 o’clock. Jervisはどうだった？あぁ、そう。ふんー。",
     "href": "https://uploads.kcwiki.cn/commons/1/18/320a-0200.mp3",
-    "time_word_cn": "兩點鐘啦。那Jervis都幹嘛了？啊，這樣啊。嗯...。"
+    "time_word_cn": "两点钟啦。那Jervis都干嘛了？啊，这样啊。嗯...。"
 },
 {
     "name": "雅努斯",
     "time": "〇三〇〇时报",
     "time_word_jp": "It’s 3 o’clock. 深夜だけど、深夜のお茶会、tea timeと行きましょうか。お茶淹れるね、任せなさい。",
     "href": "https://uploads.kcwiki.cn/commons/d/d0/320a-0300.mp3",
-    "time_word_cn": "三點鐘啦。雖然現在是半夜，不如來開深夜茶會喝點茶吧。去泡茶咯，交給我就好啦。"
+    "time_word_cn": "三点钟啦。虽然现在是半夜，不如来开深夜茶会喝点茶吧。去泡茶咯，交给我就好啦。"
 },
 {
     "name": "雅努斯",
     "time": "〇四〇〇时报",
     "time_word_jp": "It’s 4 o’clock. お茶のおかわり、要る？…うん、了解。もうすぐ、朝ね。",
     "href": "https://uploads.kcwiki.cn/commons/0/01/320a-0400.mp3",
-    "time_word_cn": "四點鐘啦。還要再添點茶嗎？...嗯，明白了。很快就要天亮啦。"
+    "time_word_cn": "四点钟啦。还要再添点茶吗？...嗯，明白了。很快就要天亮啦。"
 },
 {
     "name": "雅努斯",
     "time": "〇五〇〇时报",
     "time_word_jp": "It’s 5 o’clock. 朝ね、提督。Good morning！みんなを起こす用意をしないと。",
     "href": "https://uploads.kcwiki.cn/commons/0/07/320a-0500.mp3",
-    "time_word_cn": "五點鐘啦。天亮了，提督。早安！該准備叫大家起床了。"
+    "time_word_cn": "五点钟啦。天亮了，提督。早安！该准备叫大家起床了。"
 },
 {
     "name": "雅努斯",
     "time": "〇六〇〇时报",
     "time_word_jp": "It’s 6 o’clock. 総員起こし！繰り返す。総員起こし！これは演習ではない！起きなさい！Get up！",
     "href": "https://uploads.kcwiki.cn/commons/3/33/320a-0600.mp3",
-    "time_word_cn": "六點鐘了。全員起床！再來一次，全員起床！這不是演習，起床啦！起來！"
+    "time_word_cn": "六点钟了。全员起床！再来一次，全员起床！这不是演习，起床啦！起来！"
 },
 {
     "name": "雅努斯",
     "time": "〇七〇〇时报",
     "time_word_jp": "7 o’clock. 提督、breakfastは、私が用意したわ。こちらにどぞ。さあ、召し上がれ。",
     "href": "https://uploads.kcwiki.cn/commons/6/63/320a-0700.mp3",
-    "time_word_cn": "七點鐘啦。提督，早餐我已經准備好啦。在這邊，來，快吃吧。"
+    "time_word_cn": "七点钟啦。提督，早餐我已经准备好啦。在这边，来，快吃吧。"
 },
 {
     "name": "雅努斯",
     "time": "〇八〇〇时报",
     "time_word_jp": "It’s 8 o’clock. 提督、私のfull breakfast、お口に合った？そう？よかった。",
     "href": "https://uploads.kcwiki.cn/commons/9/9a/320a-0800.mp3",
-    "time_word_cn": "八點鐘啦。提督，我做的早晨全餐，合你的口味嗎？這樣啊，那就好。"
+    "time_word_cn": "八点钟啦。提督，我做的早晨全餐，合你的口味吗？这样啊，那就好。"
 },
 {
     "name": "雅努斯",
     "time": "〇九〇〇时报",
     "time_word_jp": "It’s 9 o’clock. Jervis、おはよう。あぁ、Arkもいったんだ。本国艦隊、もちろん、健在よ。",
     "href": "https://uploads.kcwiki.cn/commons/4/49/320a-0900.mp3",
-    "time_word_cn": "九點鐘啦。Jervis，早上好！啊，方舟也在啊。本國艦隊，當然也一切平安呢。"
+    "time_word_cn": "九点钟啦。Jervis，早上好！啊，方舟也在啊。本国舰队，当然也一切平安呢。"
 },
 {
     "name": "雅努斯",
     "time": "一〇〇〇时报",
     "time_word_jp": "It’s 10 o’clock. そう、地中海は気をつけないと。えぇ、Iron Bottom Sound？知らないわ。硬そうね。どこらへんのこと？",
     "href": "https://uploads.kcwiki.cn/commons/5/5a/320a-1000.mp3",
-    "time_word_cn": "十點鐘啦。對啊，對地中海方面可不能放鬆警惕。咦，鐵底海峽？不知道耶，聽起來好硬的樣子。到底是什麽地方啊？"
+    "time_word_cn": "十点钟啦。对啊，对地中海方面可不能放松警惕。咦，铁底海峡？不知道耶，听起来好硬的样子。到底是什么地方啊？"
 },
 {
     "name": "雅努斯",
     "time": "一一〇〇时报",
     "time_word_jp": "It’s elevenses. ん？これ？これはソーナーよ、優秀なんだから。船団護衛には大事、大事！ここ？ここは弾薬庫。…あんまりさわないで、危ないから。",
     "href": "https://uploads.kcwiki.cn/commons/6/6d/320a-1100.mp3",
-    "time_word_cn": "十一點鐘啦。呃，這個啊？這個是聲納哦，性能超好的。對船隊護衛是非常非常重要的哦！...這裡？這裏是彈藥庫。——不要摸得太過分啦，很危險的！"
+    "time_word_cn": "十一点钟啦。呃，这个啊？这个是声纳哦，性能超好的。对船队护卫是非常非常重要的哦！...这里？这里是弹药库。——不要摸得太过分啦，很危险的！"
 },
 {
     "name": "雅努斯",
     "time": "一二〇〇时报",
     "time_word_jp": "It is noon. Lunchの時間ね。私のお手製サンドウィチ、要る？そう？じゃあ、これ。さあ、召し上がれ。紅茶でいい？ここに置くわね。",
     "href": "https://uploads.kcwiki.cn/commons/0/09/320a-1200.mp3",
-    "time_word_cn": "中午了，該吃午飯啦。我親手做的三明治，你要嗎？那這個給你。喏，請慢用。喝紅茶行嗎？...幫你放在這兒了。"
+    "time_word_cn": "中午了，该吃午饭啦。我亲手做的三明治，你要吗？那这个给你。喏，请慢用。喝红茶行吗？...帮你放在这儿了。"
 },
 {
     "name": "雅努斯",
     "time": "一三〇〇时报",
     "time_word_jp": "It’s 1 o’clock. Janusサンドはお口にあった？そう？えへへぇ。Earl Greyのお代わりはいる？そう？はい！",
     "href": "https://uploads.kcwiki.cn/commons/d/d3/320a-1300.mp3",
-    "time_word_cn": "一點鐘了。雅努斯牌三明治，合你口味嗎？這樣啊，嘻嘻嘻。這伯爵紅茶，要不要再添一杯？好嘞！"
+    "time_word_cn": "一点钟了。雅努斯牌三明治，合你口味吗？这样啊，嘻嘻嘻。这伯爵红茶，要不要再添一杯？好嘞！"
 },
 {
     "name": "雅努斯",
     "time": "一四〇〇时报",
     "time_word_jp": "It’s 2 o’cl… あら、Warspite！ごきげんよう。調子はどう？…そう！さすがね。私も元気。ほら、見て！",
     "href": "https://uploads.kcwiki.cn/commons/c/ca/320a-1400.mp3",
-    "time_word_cn": "兩點...哎呀，厭戰！妳好啊。狀態怎麽樣？...這樣啊！了不起。我也很有精神哦。喏，妳看！"
+    "time_word_cn": "两点...哎呀，厌战！你好啊。状态怎么样？...这样啊！了不起。我也很有精神哦。喏，你看！"
 },
 {
     "name": "雅努斯",
     "time": "一五〇〇时报",
     "time_word_jp": "It’s 3 o’clock. Tea timeの時間ね。大事、大事。今日は…Earl Greyでいい？そう？よかった。待てて。",
     "href": "https://uploads.kcwiki.cn/commons/c/c2/320a-1500.mp3",
-    "time_word_cn": "三點鐘啦。下午茶時間到咯，這可是最最要緊的。今天...喝伯爵紅茶好嗎？這樣啊，那就好，稍等一下。"
+    "time_word_cn": "三点钟啦。下午茶时间到咯，这可是最最要紧的。今天...喝伯爵红茶好吗？这样啊，那就好，稍等一下。"
 },
 {
     "name": "雅努斯",
     "time": "一六〇〇时报",
     "time_word_jp": "It’s 4 o’clock. Jervis、何？そんなに見つめて。私の顔に何をついてる？えぇ、何？",
     "href": "https://uploads.kcwiki.cn/commons/4/41/320a-1600.mp3",
-    "time_word_cn": "四點鐘啦。Jervis，怎麽啦？怎麽一直盯著我。我臉上有東西嗎？咦，幹嘛...？"
+    "time_word_cn": "四点钟啦。Jervis，怎么啦？怎么一直盯着我。我脸上有东西吗？咦，干嘛...？"
 },
 {
     "name": "雅努斯",
     "time": "一七〇〇时报",
     "time_word_jp": "It’s 5. 私、地中海の夕日って、あんまり好きじゃないの。でも、ここの夕日は、きれい。えへぇ、好きよ。",
     "href": "https://uploads.kcwiki.cn/commons/7/74/320a-1700.mp3",
-    "time_word_cn": "五點鐘啦。我呢，其實對地中海的夕陽一點都不感冒。不過這兒的夕陽倒是挺漂亮的。嘻嘻，我喜歡。"
+    "time_word_cn": "五点钟啦。我呢，其实对地中海的夕阳一点都不感冒。不过这儿的夕阳倒是挺漂亮的。嘻嘻，我喜欢。"
 },
 {
     "name": "雅努斯",
     "time": "一八〇〇时报",
     "time_word_jp": "It’s 6 o’clock. さてっと、そろそろ艦隊を港に戻しましょう。ヂィナーはどうするの？…外で？本当に？",
     "href": "https://uploads.kcwiki.cn/commons/1/15/320a-1800.mp3",
-    "time_word_cn": "六點鐘啦。好嘞，差不多該讓艦隊回港了吧。晚飯該怎麽辦呢？...出去吃？真的嗎？"
+    "time_word_cn": "六点钟啦。好嘞，差不多该让舰队回港了吧。晚饭该怎么办呢？...出去吃？真的吗？"
 },
 {
     "name": "雅努斯",
     "time": "一九〇〇时报",
     "time_word_jp": "It's 7 o’clock. 噂のrestaurant、マミーヤね。楽しみ！Jervisも呼んでいい？えへぇ、よかった！",
     "href": "https://uploads.kcwiki.cn/commons/7/70/320a-1900.mp3",
-    "time_word_cn": "七點鐘啦。是傳説中的間宮餐廳啊，好期待哦！叫Jervis過來一起吃好不好？嘻嘻，太好啦！"
+    "time_word_cn": "七点钟啦。是传说中的间宫餐厅啊，好期待哦！叫Jervis过来一起吃好不好？嘻嘻，太好啦！"
 },
 {
     "name": "雅努斯",
     "time": "二〇〇〇时报",
     "time_word_jp": "It’s 8 o…んん～、美味しいわ！マミーヤ恐るべし！あぁ、Jervisもきた。ここ！ここよ！",
     "href": "https://uploads.kcwiki.cn/commons/7/77/320a-2000.mp3",
-    "time_word_cn": "（嚼嚼嚼）八點鐘...嗯～好好吃哦！間宮真是讚到沒朋友！啊，Jervis也到了。——這邊！在這裡！"
+    "time_word_cn": "（嚼嚼嚼）八点钟...嗯～好好吃哦！间宫真是赞到没朋友！啊，Jervis也到了。——这边！在这里！"
 },
 {
     "name": "雅努斯",
     "time": "二一〇〇时报",
     "time_word_jp": "It’s 9 o’clock…あの、あそこで騒いでる重巡、思いっきり見覚えが…あぁ、Jervis、関わらない方がいいって。あぁ、あぁー！もう、めちゃくちゃ！",
     "href": "https://uploads.kcwiki.cn/commons/5/54/320a-2100.mp3",
-    "time_word_cn": "九點鐘啦...那個，那邊大吵大鬧的重巡，我真覺得在哪兒見過...啊，Jervis，都説別管她就好啦。——啊...哇——！！討厭，弄成這樣了...!"
+    "time_word_cn": "九点钟啦...那个，那边大吵大闹的重巡，我真觉得在哪儿见过...啊，Jervis，都说别管她就好啦。——啊...哇——！！讨厌，弄成这样了...!"
 },
 {
     "name": "雅努斯",
     "time": "二二〇〇时报",
     "time_word_jp": "It’s 10 o’clock. 今日は疲れたわ。提督、毎日大変ね。えぇ、そう？楽しいの？…ん、そう考えれば、そうなんのかな…そう？",
     "href": "https://uploads.kcwiki.cn/commons/5/5d/320a-2200.mp3",
-    "time_word_cn": "十點鐘啦。...今天可真累呀...。提督每天都這麽辛苦啊。咦，真的嗎？這樣很好玩？...嗯，仔細想想的話，這麽説也有道理...呢。？"
+    "time_word_cn": "十点钟啦。...今天可真累呀...。提督每天都这么辛苦啊。咦，真的吗？这样很好玩？...嗯，仔细想想的话，这么说也有道理...呢。？"
 },
 {
     "name": "雅努斯",
     "time": "二三〇〇时报",
     "time_word_jp": "It’s 11 o’clock. 一日お疲れ様。明日もいい一日になれたいいわね。おやすみなさい。Good night.",
     "href": "https://uploads.kcwiki.cn/commons/f/f3/320a-2300.mp3",
-    "time_word_cn": "十一點鈡啦。這一整天辛苦了呢，希望明天又是個好日子。去休息吧，晚安。"
+    "time_word_cn": "十一点鈡啦。这一整天辛苦了呢，希望明天又是个好日子。去休息吧，晚安。"
 },
 {
     "name": "春日丸",
@@ -23688,6 +24024,174 @@
     "time_word_cn": "十一点了。你今天也辛苦啦。好好休息一下吧。唔，晚安。明天见。"
 },
 {
+    "name": "亚特兰大",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "今日の秘書艦は私がやるよ。まあ、いいんじゃない？",
+    "href": "https://uploads.kcwiki.cn/commons/5/59/397a-0000.mp3",
+    "time_word_cn": "今天我來當秘書艦啦。喏，不是挺好的嘛？"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇一〇〇时报",
+    "time_word_jp": "1 o'clock. 夜は嫌だね。本当。",
+    "href": "https://uploads.kcwiki.cn/commons/3/3f/397a-0100.mp3",
+    "time_word_cn": "一点了。晚上真討厭。就是討厭嘛。"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇二〇〇时报",
+    "time_word_jp": "2 o'clock. 提督さんは夜はどうなの？あぁ、そう。まあ、いいけど。",
+    "href": "https://uploads.kcwiki.cn/commons/a/a9/397a-0200.mp3",
+    "time_word_cn": "两点了。提督不怕黑天嗎？啊～這樣啊。嘛，挺好的。"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇三〇〇时报",
+    "time_word_jp": "3 o'clock. Coffeeほしくない？眠くなちゃった。あぁ、ごめん。淹れてくれるんだ。",
+    "href": "https://uploads.kcwiki.cn/commons/d/de/397a-0300.mp3",
+    "time_word_cn": "三点了。要不要喝點咖啡？有點愛睏了啦。……啊，不好意思，已經幫我沖好了呢。"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇四〇〇时报",
+    "time_word_jp": "4 o'clock. Coffee、美味しい。Thanks。おかわりは私が淹れるよ。",
+    "href": "https://uploads.kcwiki.cn/commons/9/9e/397a-0400.mp3",
+    "time_word_cn": "四点。咖啡，很好喝。谢谢。我去再沖一杯吧。"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇五〇〇时报",
+    "time_word_jp": "5 o'clock. ありゃ、明るなってきた。はあぁー、もう朝か。Good morning、提督さん。",
+    "href": "https://uploads.kcwiki.cn/commons/c/c6/397a-0500.mp3",
+    "time_word_cn": "五点了。啊啦，天色渐渐变亮了。呼～，已經天亮了。早上好，提督。"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇六〇〇时报",
+    "time_word_jp": "6 o'clock. Good morning。でも、少し眠いね。仕方ない。",
+    "href": "https://uploads.kcwiki.cn/commons/3/3c/397a-0600.mp3",
+    "time_word_cn": "六点了。早安，但是我還有點睏……沒辦法啦。"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇七〇〇时报",
+    "time_word_jp": "7 o'clock. さあ、モーニングは何にする？取ってきてあげるよ。卵はスクランブルでいい？",
+    "href": "https://uploads.kcwiki.cn/commons/9/97/397a-0700.mp3",
+    "time_word_cn": "七点了。那么，早上打算吃什么？我去帮您拿过来。鸡蛋用炒的可以吗？"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇八〇〇时报",
+    "time_word_jp": "8 o'clock. あぁ、私？私はフライドベーコンかな。基本だよ。そう、卵は二つね。",
+    "href": "https://uploads.kcwiki.cn/commons/5/5f/397a-0800.mp3",
+    "time_word_cn": "八点了。啊，我？我的话……煎培根……吧。這個一定要有的。对了，鸡蛋要两个哟。"
+},
+{
+    "name": "亚特兰大",
+    "time": "〇九〇〇时报",
+    "time_word_jp": "9 o'clock. さあ、海に出ますか。Task forceを組む。空母は？重巡はどうする？",
+    "href": "https://uploads.kcwiki.cn/commons/1/1e/397a-0900.mp3",
+    "time_word_cn": "九点了。来，該出海了吧。要編一支特遣艦隊，航母選誰？還有重巡讓誰上？"
+},
+{
+    "name": "亚特兰大",
+    "time": "一〇〇〇时报",
+    "time_word_jp": "10 o'clock. 対空演習？余裕、そんなの。相手はなに？Betty? Kate? あれは、知らないやつ。",
+    "href": "https://uploads.kcwiki.cn/commons/a/ad/397a-1000.mp3",
+    "time_word_cn": "十点了。防空演習？這根本小菜一碟啦。目標是什麼呢，一式（Betty）還是九七（Kate）？……那什麼東西啦，沒聽過耶。"
+},
+{
+    "name": "亚特兰大",
+    "time": "一一〇〇时报",
+    "time_word_jp": "11 o'clock. まあ、なんだって落とすけど。えぇ、日本の駆逐艦？ん、そうね。ちょっと苦手かな。",
+    "href": "https://uploads.kcwiki.cn/commons/0/06/397a-1100.mp3",
+    "time_word_cn": "十一点了。嘛，總之來一個打下來一個就好了。咦，日本的驅逐艦？嗯……就是說嘛，對我來說有點難搞呢。"
+},
+{
+    "name": "亚特兰大",
+    "time": "一二〇〇时报",
+    "time_word_jp": "Noon. よし、お昼だ。提督さん、lunch time。今日はAtlanta burgerでいい？なかなかいけるよ。",
+    "href": "https://uploads.kcwiki.cn/commons/c/cd/397a-1200.mp3",
+    "time_word_cn": "中午了。好，該吃午飯了。提督，開午飯啦。今天吃亞特蘭大漢堡好嗎？還是挺好吃的。"
+},
+{
+    "name": "亚特兰大",
+    "time": "一三〇〇时报",
+    "time_word_jp": "1 o'clock. さあ、お昼のあとは少しお休みしない？まあ、いいじゃない。",
+    "href": "https://uploads.kcwiki.cn/commons/0/09/397a-1300.mp3",
+    "time_word_cn": "一点了。那么，用完午餐后不稍微休息一会吗？又没什么不好的。"
+},
+{
+    "name": "亚特兰大",
+    "time": "一四〇〇时报",
+    "time_word_jp": "2 o…あいつらは…日本の駆逐隊じゃ！？…いや、あいつらは苦手。こっちくんなよ！えぇ…！",
+    "href": "https://uploads.kcwiki.cn/commons/9/95/397a-1400.mp3",
+    "time_word_cn": "兩……呃，那邊的……不是日本的驅逐艦隊嗎！……别，我最煩那幫傢伙了。別過來啊！哎哎……？"
+},
+{
+    "name": "亚特兰大",
+    "time": "一五〇〇时报",
+    "time_word_jp": "3…o'clock. H-hey、暁、how are you？そ、そう？何よりだわ。",
+    "href": "https://uploads.kcwiki.cn/commons/1/14/397a-1500.mp3",
+    "time_word_cn": "三点……了，呃，嘿？晓？妳好嗎？這……這樣啊？那就挺好的。"
+},
+{
+    "name": "亚特兰大",
+    "time": "一六〇〇时报",
+    "time_word_jp": "4 o'clock. は、はい。Nightmare、今日も「ぽいぽい」言ってのね。まあ、いいけど。ふあぁ...。",
+    "href": "https://uploads.kcwiki.cn/commons/b/b1/397a-1600.mp3",
+    "time_word_cn": "四点了，呃，嗨？噩梦……今天妳也一直poi來poi去的啊。嘛，也行吧……哈……。"
+},
+{
+    "name": "亚特兰大",
+    "time": "一七〇〇时报",
+    "time_word_jp": "5 o'clock. あいつら、やっといなくなった。提督さんもあんなのと毎日戯れて大変ね。そう？あぁ、夕日が…夜に…夜になっちゃうよ...。",
+    "href": "https://uploads.kcwiki.cn/commons/5/5d/397a-1700.mp3",
+    "time_word_cn": "五点了。那群家伙总算走掉了。提督您每天都要應付她們搞事情，也不容易啊。是吗？哈……太阳快下山了，快到晚上了……。"
+},
+{
+    "name": "亚特兰大",
+    "time": "一八〇〇时报",
+    "time_word_jp": "6 o'clock. やばい、夜だ。まじどうしよう？えぇ、夕食？それどころじゃないよ...!",
+    "href": "https://uploads.kcwiki.cn/commons/f/f4/397a-1800.mp3",
+    "time_word_cn": "六点了，糟糕，天黑了。真是的，现在怎么办啊……诶？晚饭？這種時候還講這些……！"
+},
+{
+    "name": "亚特兰大",
+    "time": "一九〇〇时报",
+    "time_word_jp": "7 o'clock. やばい、日が完全に暮れた。戦闘態勢！えぇ、飯？レーションでも食べてて!",
+    "href": "https://uploads.kcwiki.cn/commons/5/50/397a-1900.mp3",
+    "time_word_cn": "七点了，完了，太阳完全落山了，转入战斗状态！诶？吃饭？吃點軍糧就好了啦！"
+},
+{
+    "name": "亚特兰大",
+    "time": "二〇〇〇时报",
+    "time_word_jp": "8…えぇ、来客？夜に…だれ！？ひ、比叡！やるき！？…えぇ？手作りカレーの差し入れ？Th-thanks。",
+    "href": "https://uploads.kcwiki.cn/commons/8/82/397a-2000.mp3",
+    "time_word_cn": "八…诶？有客人？這麼晚了……谁呀？！比……比睿？想打架……？！……诶？請我吃自己煮的咖哩？谢——谢了。"
+},
+{
+    "name": "亚特兰大",
+    "time": "二一〇〇时报",
+    "time_word_jp": "9 o'clock. Battleship比叡の差し入れだって。た、食べてみる？あぁ、美味しい。",
+    "href": "https://uploads.kcwiki.cn/commons/2/24/397a-2100.mp3",
+    "time_word_cn": "九点了。這是戰艦比睿送過來的。想……想不想嚐嚐？啊……真好吃。"
+},
+{
+    "name": "亚特兰大",
+    "time": "二二〇〇时报",
+    "time_word_jp": "10 o'clock. 提督さん、そうなんだ。金剛のサポートレシピで。いや、まじありだった。",
+    "href": "https://uploads.kcwiki.cn/commons/f/fb/397a-2200.mp3",
+    "time_word_cn": "十点了。提督，这样啊。原來這個是金剛幫忙弄的食譜啊……不是，其實味道还好啦。"
+},
+{
+    "name": "亚特兰大",
+    "time": "二三〇〇时报",
+    "time_word_jp": "11 o'clock. 今日も色々あったね。明日はもっといい日になるよ。じゃ、good night。",
+    "href": "https://uploads.kcwiki.cn/commons/1/12/397a-2300.mp3",
+    "time_word_cn": "十一点了，今天又出了一堆狀況啊。明天肯定能更好的。那就，晚安咯。"
+},
+{
     "name": "南达科他",
     "time": "〇〇〇〇时报",
     "time_word_jp": "日付が変わったぞ。そうだな、今日はこのSouth Dakotaが、提督の業務はサポートしよう。よし。",
@@ -24472,13 +24976,6 @@
     "time_word_cn": "一五、〇〇。提督，你幹嘛啦！怎麼不叫人家起來啦。咦？「沒想到妳的睡相這麼可愛」。啥？！"
 },
 {
-    "name": "迅鲸",
-    "time": "〇〇〇〇时报",
-    "time_word_jp": "今日は私が、提督の秘書艦を担当しますね。今、日付が変わったところです。よろしくお願いします。",
-    "href": "https://uploads.kcwiki.cn/commons/d/df/439-0000.mp3",
-    "time_word_cn": "今天是我负责做提督的秘书舰呢。现在新的一天正好开始，请您多多指教。"
-},
-{
     "name": "有明",
     "time": "一六〇〇时报",
     "time_word_jp": "ヒトロク、マルマル。あっ、うーちゃん先輩、その後、大丈夫っすか？ならいいっす。はい、まだ！",
@@ -24536,171 +25033,178 @@
 },
 {
     "name": "迅鲸",
+    "time": "〇〇〇〇时报",
+    "time_word_jp": "今日は私が、提督の秘書艦を担当しますね。今、日付が変わったところです。よろしくお願いします。",
+    "href": "https://uploads.kcwiki.cn/commons/d/df/439-0000.mp3",
+    "time_word_cn": "今天是我負責做提督的秘書艦呢。現在新的一天正好開始，請您多多指教。"
+},
+{
+    "name": "迅鲸",
     "time": "〇一〇〇时报",
     "time_word_jp": "マルヒトマルマルです。静か…ですね。お茶淹れましょうか？",
     "href": "https://uploads.kcwiki.cn/commons/1/11/439-0100.mp3",
-    "time_word_cn": "现在是〇一〇〇。好...安静啊。泡点茶喝好不好？"
+    "time_word_cn": "現在是〇一〇〇。好...安靜啊。泡點茶喝好不好？"
 },
 {
     "name": "迅鲸",
     "time": "〇二〇〇时报",
     "time_word_jp": "マルフタマルマルです。お茶、ここに置きますね。羊羹も切りました。糖分取ると、頭が回りますよね。",
     "href": "https://uploads.kcwiki.cn/commons/0/07/439-0200.mp3",
-    "time_word_cn": "现在是〇二〇〇。茶帮您放在这里了，还切了几块羊羹。吃点糖，头脑就更灵活了喔。"
+    "time_word_cn": "現在是〇二〇〇。茶幫您放在這裡了，還切了幾塊羊羹。吃點糖，頭腦就更靈活了喔。"
 },
 {
     "name": "迅鲸",
     "time": "〇三〇〇时报",
     "time_word_jp": "マルサンマルマルです。この時間は、ここもとても静かですね。",
     "href": "https://uploads.kcwiki.cn/commons/a/a8/439-0300.mp3",
-    "time_word_cn": "现在是〇三〇〇。到了这时候，这儿居然有这么安静啊。"
+    "time_word_cn": "現在是〇三〇〇。到了這時候，這兒居然有這麼安靜啊。"
 },
 {
     "name": "迅鲸",
     "time": "〇四〇〇时报",
     "time_word_jp": "マルヨンマルマルです。ふ～ん、もうすぐ朝。提督、お茶を淹れ直しますね。日本茶でいいですか？",
     "href": "https://uploads.kcwiki.cn/commons/7/72/439-0400.mp3",
-    "time_word_cn": "现在是〇四〇〇。天快亮了。提督，我再泡一壶茶吧。用日本茶可以吗？"
+    "time_word_cn": "現在是〇四〇〇。天快亮了。提督，我再泡一壺茶吧。用日本茶可以嗎？"
 },
 {
     "name": "迅鲸",
     "time": "〇五〇〇时报",
     "time_word_jp": "マルゴーマルマルです。夜が明けますね。提督、おはようございます。",
     "href": "https://uploads.kcwiki.cn/commons/f/fd/439-0500.mp3",
-    "time_word_cn": "现在是〇五〇〇。天已经透亮了呢。提督，早上好。"
+    "time_word_cn": "現在是〇五〇〇。天已經透亮了呢。提督，早上好。"
 },
 {
     "name": "迅鲸",
     "time": "〇六〇〇时报",
     "time_word_jp": "マルロクマルマル。艦隊に総員起こし、かけますね。皆さん、朝です、起きてください！総員起こし、おはようございます。",
     "href": "https://uploads.kcwiki.cn/commons/5/5d/439-0600.mp3",
-    "time_word_cn": "现在是〇六〇〇。该叫舰队起来了。各位，天亮了，都起床吧！全员起床！大家早上好！"
+    "time_word_cn": "現在是〇六〇〇。該叫艦隊起來了。各位，天亮了，都起床吧！全員起床！大家早上好！"
 },
 {
     "name": "迅鲸",
     "time": "〇七〇〇时报",
     "time_word_jp": "マルナナマルマルです。提督、朝食の準備、できました。麦飯に、新鮮の卵、油揚げのお味噌汁と、大根のお漬物。あと、今日はアジの開きも手に入ったんです。どうぞ召し上がれ、おかわりも遠慮しないで、おっしゃってくださいね。",
     "href": "https://uploads.kcwiki.cn/commons/1/1b/439-0700.mp3",
-    "time_word_cn": "现在是〇七〇〇。提督，早餐帮您准备好了。有麦饭加新鲜鸡蛋，油豆腐味噌汤，还有腌萝卜。还有呢，今天正好弄到了一点炸竹荚鱼。您慢用，不够吃也不用担心，告诉我就好。"
+    "time_word_cn": "現在是〇七〇〇。提督，早餐幫您準備好了。有麥飯加新鮮雞蛋，油豆腐味噌湯，還有醃蘿蔔。還有呢，今天正好弄到了一點炸竹莢魚。您慢用，不夠吃也不用擔心，告訴我就好。"
 },
 {
     "name": "迅鲸",
     "time": "〇八〇〇时报",
     "time_word_jp": "マルハチマルマルです。提督、食後のお茶はいかがですか？はい、お持ちしますね。どうぞ。",
     "href": "https://uploads.kcwiki.cn/commons/1/16/439-0800.mp3",
-    "time_word_cn": "现在是〇八〇〇。提督，饭后要不要喝点茶？好的，我给您拿来。您请吧。"
+    "time_word_cn": "現在是〇八〇〇。提督，飯後要不要喝點茶？好的，我給您拿来。您請吧。"
 },
 {
     "name": "迅鲸",
     "time": "〇九〇〇时报",
     "time_word_jp": "マルキュマルマルです。あら、由良さん！おはようございます。由良さんも元気そうですね。",
     "href": "https://uploads.kcwiki.cn/commons/3/34/439-0900.mp3",
-    "time_word_cn": "现在是〇九〇〇。啊啦，是由良小姐啊！早上好。由良小姐气色看着很不错呢。"
+    "time_word_cn": "現在是〇九〇〇。啊啦，是由良小姐啊！早上好。由良小姐氣色看著很不錯呢。"
 },
 {
     "name": "迅鲸",
     "time": "一〇〇〇时报",
     "time_word_jp": "ヒトマルマルマルです。由良さん、今は水雷戦隊を？そうですか。やはり軽巡はそうですよね、分かります。皆さんのご活躍を、お祈りしています。",
     "href": "https://uploads.kcwiki.cn/commons/3/33/439-1000.mp3",
-    "time_word_cn": "现在是一〇〇〇。由良小姐，现在在水雷战队高就吗？这样啊。果然轻巡的本分就是做这个的，我懂。那就先祝你们大家能各显神通吧。"
+    "time_word_cn": "現在是一〇〇〇。由良小姐，現在在水雷戰隊高就嗎？這樣啊。果然輕巡的本分就是做這個的，我懂。那就先祝妳們大家能各顯神通吧。"
 },
 {
     "name": "迅鲸",
     "time": "一一〇〇时报",
     "time_word_jp": "ヒトヒトマルマ、あっ、間宮さん！おはようございます。アジの開き、ありがとうございました。美味しかったです。えっ、あの時のお礼？いいんです、そんなの。いえ、本当にありがとう。提督も喜んでいました",
     "href": "https://uploads.kcwiki.cn/commons/c/ce/439-1100.mp3",
-    "time_word_cn": "现在是一一〇……啊，间宫小姐！早上好。你送的炸竹荚鱼味道真好，谢谢啦。你说这算是那时候欠的人情吗？那个不算什么啦。不不不，还是得我谢谢你，提督吃了这个也很开心。"
+    "time_word_cn": "現在是一一〇……啊，間宮小姐！早上好。妳送的炸竹莢魚味道真好，謝謝啦。妳說這算是那時候欠的人情嗎？那個不算什麼啦。不不不，還是得我謝謝妳，提督吃了這個也很開心。"
 },
 {
     "name": "迅鲸",
     "time": "一二〇〇时报",
     "time_word_jp": "ヒトフタマルマルです。提督、お昼にしましょう？こちらにおむすびをご用意しました。これがお塩、これは梅干し、こちらは豪華に鮭です。さぁ、召し上がってください！沢庵もありますよ。",
     "href": "https://uploads.kcwiki.cn/commons/3/35/439-1200.mp3",
-    "time_word_cn": "现在是一二〇〇。提督，该吃午饭了？这边帮您准备了饭团。这个是盐巴味的，这个里面有梅干，这个很豪华、里面有三文鱼。喏，您请用吧！配菜还有咸萝卜。"
+    "time_word_cn": "現在是一二〇〇。提督，該吃午飯了？這邊幫您準備了飯糰。這個是鹽巴味的，這個裡面有梅乾，這個很豪華、裡面有三文魚。喏，您請用吧！配菜還有鹹蘿蔔。"
 },
 {
     "name": "迅鲸",
     "time": "一三〇〇时报",
     "time_word_jp": "ヒトサンマルマルです。提督、お昼は十分でした？そうですか、よかった。食後のお茶、こちらにご用意しますね。午後も頑張りましょう！",
     "href": "https://uploads.kcwiki.cn/commons/9/90/439-1300.mp3",
-    "time_word_cn": "现在是一三〇〇。提督，午饭您吃饱了吗？这样啊，那就太好了。饭后的茶水帮您放在这里了哦。下午继续努力吧！"
+    "time_word_cn": "現在是一三〇〇。提督，午飯您吃飽了嗎？這樣啊，那就太好了。飯後的茶水幫您放在這裡了哦。下午繼續努力吧！"
 },
 {
     "name": "迅鲸",
     "time": "一四〇〇时报",
     "time_word_jp": "ヒトヨンマルマルです。そうですね、そんなに新しい船ではないので、最新の装備はあまり。すみません、提督。",
     "href": "https://uploads.kcwiki.cn/commons/f/fb/439-1400.mp3",
-    "time_word_cn": "现在是一四〇〇。说得也是啊，我不是那么新锐的船，也没有什么最新的装备。真是不好意思，提督。"
+    "time_word_cn": "現在是一四〇〇。說得也是啊，我不是那麼新銳的船，也沒有什麼最新的裝備。真是不好意思，提督。"
 },
 {
     "name": "迅鲸",
     "time": "一五〇〇时报",
     "time_word_jp": "ヒトゴーマルマルです。長鯨にも、会えると思います、きっと。あの子、意外と頑丈だし。",
     "href": "https://uploads.kcwiki.cn/commons/4/4f/439-1500.mp3",
-    "time_word_cn": "现在是一五〇〇。我想，肯定还有机会能再见到长鲸的吧。这孩子比大家想得要结实呢。"
+    "time_word_cn": "現在是一五〇〇。我想，肯定還有機會能再見到長鯨的吧。這孩子比大家想得要結實呢。"
 },
 {
     "name": "迅鲸",
     "time": "一六〇〇时报",
     "time_word_jp": "ヒトロクマルマルです。そうですね。内地で練習艦を務めたこともありました。",
     "href": "https://uploads.kcwiki.cn/commons/b/b7/439-1600.mp3",
-    "time_word_cn": "现在是一六〇〇。没错，之前我还在内地当过练习舰呢。"
+    "time_word_cn": "現在是一六〇〇。沒錯，之前我還在內地當過練習艦呢。"
 },
 {
     "name": "迅鲸",
     "time": "一七〇〇时报",
     "time_word_jp": "ヒトナナマルマルです。提督、見てください、夕日。キレイ。夕日はどこで見ても、心を奪われますね、本当に…あっ、いけない、夕食の準備をしないと！",
     "href": "https://uploads.kcwiki.cn/commons/2/2f/439-1700.mp3",
-    "time_word_cn": "现在是一七〇〇。提督，您快看，是夕阳。好漂亮。就是说啊，无论在哪儿看到它，夕阳都有一种勾魂摄魄的力量呢……啊不好，到做晚饭的时间了！"
+    "time_word_cn": "現在是一七〇〇。提督，您快看，是夕陽。好漂亮。就是說啊，無論在哪兒看到它，夕陽都有一種勾魂攝魄的力量呢……啊不好，到做晚饭的时间了！"
 },
 {
     "name": "迅鲸",
     "time": "一八〇〇时报",
     "time_word_jp": "ヒトハチマルマルです。提督、夕食のご用意、進めています。少しお待ちいただけますか。お酒はどうされますか？今日はビール？分かりました。お持ちしますね。",
     "href": "https://uploads.kcwiki.cn/commons/2/2f/439-1800.mp3",
-    "time_word_cn": "现在是一八〇〇。提督，晚餐还在煮着呢，还要准备一会儿，麻烦您稍等一下吧。您想喝什么酒呢？今天喝啤酒吗？明白了，我去帮您拿。"
+    "time_word_cn": "現在是一八〇〇。提督，晚餐還在煮著呢，還要準備一會兒，麻煩您稍等一下吧。您想喝什麼酒呢？今天喝啤酒嗎？明白了，我去幫您拿。"
 },
 {
     "name": "迅鲸",
     "time": "一九〇〇时报",
     "time_word_jp": "ヒトキュウマルマルです。さぁ、夕食のご用意ができました。今日の献立は、金目が手に入ったので、煮つけにしてみました。炊き立ての麦飯、豆腐とほうれん草のお味噌汁、蕪のお漬物も。どうぞ。",
     "href": "https://uploads.kcwiki.cn/commons/d/d1/439-1900.mp3",
-    "time_word_cn": "现在是一九〇〇。晚餐做好了。今晚的菜色首先有金目鲷煮物，因为正好弄到了金目鲷。还有刚出锅的麦饭，菠菜豆腐味噌汤，加上腌芜菁。请慢用。"
+    "time_word_cn": "現在是一九〇〇。晚餐做好了。今晚的菜色首先有金目鯛煮物，因為正好弄到了金目鯛。還有剛出鍋的麥飯，菠菜豆腐味噌湯，加上醃蕪菁。請慢用。"
 },
 {
     "name": "迅鲸",
     "time": "二〇〇〇时报",
     "time_word_jp": "フタマルマルマルです。提督、おかわりはどうですか？はい、了解です。少し少な目、ですね。",
     "href": "https://uploads.kcwiki.cn/commons/2/2d/439-2000.mp3",
-    "time_word_cn": "现在是二〇〇〇。提督，您要添饭吗？好的，明白了。再盛一点点就好了，是吧。"
+    "time_word_cn": "現在是二〇〇〇。提督，您要添飯嗎？好的，明白了。再盛一點點就好了，是吧。"
 },
 {
     "name": "迅鲸",
     "time": "二一〇〇时报",
     "time_word_jp": "フタヒトマルマルです。提督、お茶を淹れますね。蜜柑もどうですか？こちら、佐世保の蜜柑なんです。",
     "href": "https://uploads.kcwiki.cn/commons/f/ff/439-2100.mp3",
-    "time_word_cn": "现在是二一〇〇。提督，我泡点茶给您吧。还有，您吃不吃橘子？这个可是佐世保特产的橘子哦。"
+    "time_word_cn": "現在是二一〇〇。提督，我泡點茶給您吧。還有，您吃不吃橘子？這個可是佐世保特產的橘子哦。"
 },
 {
     "name": "迅鲸",
     "time": "二二〇〇时报",
     "time_word_jp": "フタフタマルマルです。提督、今日もお疲れさまでした。少し先に、お休みになってください。残った書類の片づけは、私がやっておきますね。",
     "href": "https://uploads.kcwiki.cn/commons/c/c4/439-2200.mp3",
-    "time_word_cn": "现在是二二〇〇。提督，今天您辛苦了。您先去休息吧，剩下这些文件整理之类交给我做就好。"
+    "time_word_cn": "現在是二二〇〇。提督，今天您辛苦了。您先去休息吧，剩下這些文件整理之類交給我做就好。"
 },
 {
     "name": "迅鲸",
     "time": "二三〇〇时报",
     "time_word_jp": "フタサンマルマ…あっ、提督？このお茶、提督が淹れてくださったんですか？ありがとう♥ いただきます。",
     "href": "https://uploads.kcwiki.cn/commons/9/92/439-2300.mp3",
-    "time_word_cn": "现在是二三〇……啊，提督？这茶是提督泡给我喝的吗？谢谢您。那我不客气了。"
+    "time_word_cn": "現在是二三〇……啊，提督？這茶是提督泡給我喝的嗎？謝謝您。那我不客氣了。"
 },
 {
     "name": "伊47",
     "time": "〇〇〇〇时报",
     "time_word_jp": "新しい一日が始まります。今日は、ヨナが当直。提督、いいですか？",
     "href": "https://uploads.kcwiki.cn/commons/6/65/436a-0000.mp3",
-    "time_word_cn": "新的一天开始了。今天轮到悠娜值班，提督您觉得可以吗？"
+    "time_word_cn": "新的一天開始了。今天輪到悠娜值班，提督您覺得可以嗎？"
 },
 {
     "name": "伊47",
@@ -24714,252 +25218,252 @@
     "time": "〇二〇〇时报",
     "time_word_jp": "マルフタマルマル。丑三つ時のヨナ。",
     "href": "https://uploads.kcwiki.cn/commons/9/94/436a-0200.mp3",
-    "time_word_cn": "〇二〇〇。丑时三刻的悠娜～"
+    "time_word_cn": "〇二〇〇。丑時三刻的悠娜～"
 },
 {
     "name": "伊47",
     "time": "〇三〇〇时报",
     "time_word_jp": "マルサンマルマル。提督の…後ろのヨナ〜。えぇ？怖い？",
     "href": "https://uploads.kcwiki.cn/commons/7/77/436a-0300.mp3",
-    "time_word_cn": "〇三〇〇。提督~身后~的悠娜～咦，很吓人吗？"
+    "time_word_cn": "〇三〇〇。提督~身後~的悠娜～咦，很嚇人嗎？"
 },
 {
     "name": "伊47",
     "time": "〇四〇〇时报",
     "time_word_jp": "マルヨンマルマル。もうすぐ、朝のヨナ。少し眠いです...。",
     "href": "https://uploads.kcwiki.cn/commons/6/6a/436a-0400.mp3",
-    "time_word_cn": "〇四〇〇。很快就是清晨的悠娜了。有点犯困了呢。"
+    "time_word_cn": "〇四〇〇。很快就是清晨的悠娜了。有點犯睏了呢。"
 },
 {
     "name": "伊47",
     "time": "〇五〇〇时报",
     "time_word_jp": "マルゴーマルマル。夜明けのヨナ。提督、見て、朝日。キレイ〜。空気も美味しい。",
     "href": "https://uploads.kcwiki.cn/commons/a/a5/436a-0500.mp3",
-    "time_word_cn": "〇五〇〇。破晓时分的悠娜。提督，您看，是朝阳，好漂亮。空气也很清新。"
+    "time_word_cn": "〇五〇〇。破曉時分的悠娜。提督，您看，是朝陽，好漂亮。空氣也很清新。"
 },
 {
     "name": "伊47",
     "time": "〇六〇〇时报",
     "time_word_jp": "マルロクマルマル。総員起こし、かけるヨナ。艦隊、総員起こしー。あれ、誰も起きません…。声が小さかった？総員起こしー、起こしー、ですぅー。",
     "href": "https://uploads.kcwiki.cn/commons/0/0a/436a-0600.mp3",
-    "time_word_cn": "〇六〇〇。准备叫全员起床的悠娜。舰队，全员起床——咦，怎么没人起来呢？是不是声音太小了？全员起床——起床——起床啦！"
+    "time_word_cn": "〇六〇〇。準備叫全員起床的悠娜。艦隊，全員起床——咦，怎麼沒人起來呢？是不是聲音太小了？全員起床——起床——起床啦！"
 },
 {
     "name": "伊47",
     "time": "〇七〇〇时报",
     "time_word_jp": "マルナナマルマル。朝食を、ご用意しました。もう野菜がないので、缶詰がメインです。あっ、ご飯は炊いています。",
     "href": "https://uploads.kcwiki.cn/commons/1/17/436a-0700.mp3",
-    "time_word_cn": "〇七〇〇。早餐帮您准备好了。因为蔬菜吃完了，主要是吃罐头。啊，还煮了点米饭。"
+    "time_word_cn": "〇七〇〇。早餐幫您準備好了。因為蔬菜吃完了，主要是吃罐頭。啊，還煮了點米飯。"
 },
 {
     "name": "伊47",
     "time": "〇八〇〇时报",
     "time_word_jp": "マルハチマルマル。提督？ヴィタミン剤を…えぇ、サプリは要らない？そうですか…飲んだほうがいいのに…。",
     "href": "https://uploads.kcwiki.cn/commons/8/8e/436a-0800.mp3",
-    "time_word_cn": "〇八〇〇。提督？该吃维他命了……咦，您不需要补品吗？这样啊，明明吃一点对身体比较好。"
+    "time_word_cn": "〇八〇〇。提督？該吃維他命了……咦，您不需要補品嗎？這樣啊，明明吃一點對身體比較好。"
 },
 {
     "name": "伊47",
     "time": "〇九〇〇时报",
     "time_word_jp": "マルキュマルマル。ヨナ、出港します。",
     "href": "https://uploads.kcwiki.cn/commons/4/4e/436a-0900.mp3",
-    "time_word_cn": "〇九〇〇。悠娜现在出港了。"
+    "time_word_cn": "〇九〇〇。悠娜現在出港了。"
 },
 {
     "name": "伊47",
     "time": "一〇〇〇时报",
     "time_word_jp": "ヒトマルマルマル。ヨナ、ハッチ閉じます。潜航用意。",
     "href": "https://uploads.kcwiki.cn/commons/d/d8/436a-1000.mp3",
-    "time_word_cn": "一〇〇〇。悠娜现在关闭水闸，准备下潜。"
+    "time_word_cn": "一〇〇〇。悠娜現在關閉水閘，準備下潛。"
 },
 {
     "name": "伊47",
     "time": "一一〇〇时报",
     "time_word_jp": "ヒトヒトマルマル。ヨナ、お腹が空いてきました。",
     "href": "https://uploads.kcwiki.cn/commons/d/dd/436a-1100.mp3",
-    "time_word_cn": "一一〇〇。悠娜好像有点饿了呢。"
+    "time_word_cn": "一一〇〇。悠娜好像有點餓了呢。"
 },
 {
     "name": "伊47",
     "time": "一二〇〇时报",
     "time_word_jp": "ヒトフタマルマル。昼食の時間です。提督、豪華です！カレーですよ。カレー！",
     "href": "https://uploads.kcwiki.cn/commons/0/00/436a-1200.mp3",
-    "time_word_cn": "一二〇〇。该吃午饭了，提督。很丰盛喔！吃的是咖喱耶，咖喱！"
+    "time_word_cn": "一二〇〇。該吃午飯了，提督。很豐盛喔！吃的是咖哩耶，咖哩！"
 },
 {
     "name": "伊47",
     "time": "一三〇〇时报",
     "time_word_jp": "：ヒトサンマルマル。お昼、美味しかったですね。明日は、敵地突入でしょうか？ヨナ、少しだけ心配です。",
     "href": "https://uploads.kcwiki.cn/commons/6/6b/436a-1300.mp3",
-    "time_word_cn": "一三〇〇。午饭味道还是不错的吧。明天是要挺进敌方阵地吗？悠娜有点紧张呢。"
+    "time_word_cn": "一三〇〇。午飯味道還是不錯的吧。明天是要挺進敵方陣地嗎？悠娜有點緊張呢。"
 },
 {
     "name": "伊47",
     "time": "一四〇〇时报",
     "time_word_jp": "ヒトヨンマルマル。マインタンクブロー。ヨナ、浮上します。",
     "href": "https://uploads.kcwiki.cn/commons/7/7b/436a-1400.mp3",
-    "time_word_cn": "一四〇〇。主水箱排水！悠娜准备上浮。"
+    "time_word_cn": "一四〇〇。主水箱排水！悠娜準備上浮。"
 },
 {
     "name": "伊47",
     "time": "一五〇〇时报",
     "time_word_jp": "ヒトゴ—マルマル。あれは…あのプカプカとしてるの、筏かもしれません。もっと近づいてみます。",
     "href": "https://uploads.kcwiki.cn/commons/c/c9/436a-1500.mp3",
-    "time_word_cn": "一五〇〇。那个是，那边有个载浮载沉的东西，说不定是个小筏子。再靠近一点看看吧。"
+    "time_word_cn": "一五〇〇。那個是，那邊有個載浮載沉的東西，說不定是個小筏子。再靠近一點看看吧。"
 },
 {
     "name": "伊47",
     "time": "一六〇〇时报",
     "time_word_jp": "ヒトロクマルマル。違いました...。ヨナ、少し疲れてるのかも。",
     "href": "https://uploads.kcwiki.cn/commons/e/ec/436a-1600.mp3",
-    "time_word_cn": "一六〇〇。看错了。悠娜好像是有点累迷糊了。"
+    "time_word_cn": "一六〇〇。看錯了。悠娜好像是有點累迷糊了。"
 },
 {
     "name": "伊47",
     "time": "一七〇〇时报",
     "time_word_jp": "ヒトナナマルマル。提督、よかったら司令塔に…あら〜、見てください！空、キレイ〜。夕日が、落ちます。",
     "href": "https://uploads.kcwiki.cn/commons/f/fa/436a-1700.mp3",
-    "time_word_cn": "一七〇〇。提督，您不介意的话请到司令塔来。啊，您快看！天空好漂亮。夕阳落山啦。"
+    "time_word_cn": "一七〇〇。提督，您不介意的話請到司令塔來。啊，您快看！天空好漂亮。夕陽落山啦。"
 },
 {
     "name": "伊47",
     "time": "一八〇〇时报",
     "time_word_jp": "ヒトハチマルマ……あれ、提督、この司令塔にあるの……もしかして、爆雷！？う、うわあぁ！",
     "href": "https://uploads.kcwiki.cn/commons/a/ad/436a-1800.mp3",
-    "time_word_cn": "一八〇……咦，提督，这个司令塔上面有个……该不是深弹吧？！哇～～！！"
+    "time_word_cn": "一八〇……咦，提督，這個司令塔上面有個……該不是深彈吧？！哇～～！！"
 },
 {
     "name": "伊47",
     "time": "一九〇〇时报",
     "time_word_jp": "ヒトキュマルマル。夕食用の缶詰、開けますね。えぇ、待って？間宮…間宮って…あの、間宮って！？",
     "href": "https://uploads.kcwiki.cn/commons/a/a8/436a-1900.mp3",
-    "time_word_cn": "一九〇〇。开个罐头当晚饭吧。咦，要等一下？“间宫”？间宫是？啊？！就是那个“间宫”？！"
+    "time_word_cn": "一九〇〇。開個罐頭當晚飯吧。咦，要等一下？「間宮」？間宮是？啊？！就是那個「間宮」？！"
 },
 {
     "name": "伊47",
     "time": "二〇〇〇时报",
     "time_word_jp": "フタマルマルマル。んー、提督、幸せですぅー。こんな美味しいものを食べられて、幸せのヨナ。",
     "href": "https://uploads.kcwiki.cn/commons/4/4c/436a-2000.mp3",
-    "time_word_cn": "二〇〇〇。嗯～提督，好幸福哦～。能吃到这么好吃的东西，幸福的悠娜。"
+    "time_word_cn": "二〇〇〇。嗯～提督，好幸福哦～。能吃到這麼好吃的東西，幸福的悠娜。"
 },
 {
     "name": "伊47",
     "time": "二一〇〇时报",
     "time_word_jp": "フタヒトマルマル。何か罰が当たってしまいそう。美味しかった。みんなにも…ううん、なんでもない…です。",
     "href": "https://uploads.kcwiki.cn/commons/2/2e/436a-2100.mp3",
-    "time_word_cn": "二一〇〇。吃这么好会遭天谴吧。味道真不错。如果大家也能——没什么，悠娜什么都没说。"
+    "time_word_cn": "二一〇〇。吃這麼好會遭天譴吧。味道真不錯。如果大家也能——没什么，悠娜什麼都沒說。"
 },
 {
     "name": "伊47",
     "time": "二二〇〇时报",
     "time_word_jp": "フタフタマルマル。提督、幸せって、生きるって、素敵なことですね？ヨナは今、そう、思います。",
     "href": "https://uploads.kcwiki.cn/commons/5/52/436a-2200.mp3",
-    "time_word_cn": "二二〇〇。提督，能幸福，能活着，都是很美好的事，对不对？悠娜现在……就是这么想的。"
+    "time_word_cn": "二二〇〇。提督，能幸福，能活著，都是很美好的事，對不對？悠娜現在……就是這麼想的。"
 },
 {
     "name": "伊47",
     "time": "二三〇〇时报",
     "time_word_jp": "フタサンマルマル。今日はもう、終わり。少し、眠りましょう？提督、手を...手を繋いでいって...ください。",
     "href": "https://uploads.kcwiki.cn/commons/6/69/436a-2300.mp3",
-    "time_word_cn": "二三〇〇。这一天已经结束了。是不是该睡一会儿啦？提督，请您拉住悠娜的手，拜托了。"
+    "time_word_cn": "二三〇〇。這一天已經結束了。是不是該睡一會兒啦？提督，請您拉住悠娜的手，拜託了。"
 },
 {
     "name": "松",
     "time": "〇〇〇〇时报",
     "time_word_jp": "提督、本日は松が、丁型秘書艦を務めます！",
     "href": "https://uploads.kcwiki.cn/commons/a/a5/441a-0000.mp3",
-    "time_word_cn": "提督，今天丁型—松來擔任秘書艦！"
+    "time_word_cn": "提督，今天丁型—松来担任秘书舰！"
 },
 {
     "name": "松",
     "time": "〇一〇〇时报",
     "time_word_jp": "提督、〇一〇〇です。はい！",
     "href": "https://uploads.kcwiki.cn/commons/2/23/441a-0100.mp3",
-    "time_word_cn": "提督，現在是〇一〇〇！是的！"
+    "time_word_cn": "提督，现在是〇一〇〇！是的！"
 },
 {
     "name": "松",
     "time": "〇二〇〇时报",
     "time_word_jp": "〇二〇〇。松はこれより見回りに行ってきます！",
     "href": "https://uploads.kcwiki.cn/commons/a/a1/441a-0200.mp3",
-    "time_word_cn": "〇二〇〇。松現在開始巡邏！"
+    "time_word_cn": "〇二〇〇。松现在开始巡逻！"
 },
 {
     "name": "松",
     "time": "〇三〇〇时报",
     "time_word_jp": "〇三〇〇。提督、鎮守府内異常なし、です！",
     "href": "https://uploads.kcwiki.cn/commons/e/e9/441a-0300.mp3",
-    "time_word_cn": "〇三〇〇。提督，鎮守府內未發現異常！"
+    "time_word_cn": "〇三〇〇。提督，镇守府内未发现异常！"
 },
 {
     "name": "松",
     "time": "〇四〇〇时报",
     "time_word_jp": "提督、〇四〇〇です。そろそろ夜が明けますね。",
     "href": "https://uploads.kcwiki.cn/commons/b/bf/441a-0400.mp3",
-    "time_word_cn": "提督，現在是〇四〇〇。天也差不多快亮了呢。"
+    "time_word_cn": "提督，现在是〇四〇〇。天也差不多快亮了呢。"
 },
 {
     "name": "松",
     "time": "〇五〇〇时报",
     "time_word_jp": "〇五〇〇。提督、総員起こしの準備に入ります。",
     "href": "https://uploads.kcwiki.cn/commons/6/6c/441a-0500.mp3",
-    "time_word_cn": "〇五〇〇。提督，現在準備叫全員起床。"
+    "time_word_cn": "〇五〇〇。提督，现在准备叫全员起床。"
 },
 {
     "name": "松",
     "time": "〇六〇〇时报",
     "time_word_jp": "〇六〇〇。艦隊、総員起こし、朝です！",
     "href": "https://uploads.kcwiki.cn/commons/b/b9/441a-0600.mp3",
-    "time_word_cn": "〇六〇〇。艦隊，全員起床，天亮了！"
+    "time_word_cn": "〇六〇〇。舰队，全员起床，天亮了！"
 },
 {
     "name": "松",
     "time": "〇七〇〇时报",
     "time_word_jp": "〇七〇〇。提督、松が歓待ですが、朝食を用意しました。麦飯に味噌汁、そして沢庵です。召し上がれ。",
     "href": "https://uploads.kcwiki.cn/commons/e/e2/441a-0700.mp3",
-    "time_word_cn": "〇七〇〇。提督，松為了特別款待您，幫您做了早飯。有味噌湯和麥飯，還有醃蘿蔔。請用吧。"
+    "time_word_cn": "〇七〇〇。提督，松为了特别款待您，帮您做了早饭。有味噌汤和麦饭，还有腌萝卜。请用吧。"
 },
 {
     "name": "松",
     "time": "〇八〇〇时报",
     "time_word_jp": "〇八〇〇。さぁ、お気合いに、船を出しましょう！",
     "href": "https://uploads.kcwiki.cn/commons/c/c8/441a-0800.mp3",
-    "time_word_cn": "〇八〇〇。好唻，鼓足幹勁，開船吧！"
+    "time_word_cn": "〇八〇〇。好唻，鼓足干劲，开船吧！"
 },
 {
     "name": "松",
     "time": "〇九〇〇时报",
     "time_word_jp": "〇九〇まっ……あ！旗風先輩！おはようございます！",
     "href": "https://uploads.kcwiki.cn/commons/e/e0/441a-0900.mp3",
-    "time_word_cn": "〇九〇……啊，旗風前輩！早上好啊！"
+    "time_word_cn": "〇九〇……啊，旗风前辈！早上好啊！"
 },
 {
     "name": "松",
     "time": "一〇〇〇时报",
     "time_word_jp": "一〇〇〇。ヨツ、おはよう！うん、松は元気よ。",
     "href": "https://uploads.kcwiki.cn/commons/f/f2/441a-1000.mp3",
-    "time_word_cn": "一〇〇〇。四津，妳早啊！嗯，松狀態很好的。"
+    "time_word_cn": "一〇〇〇。四津，你早啊！嗯，松状态很好的。"
 },
 {
     "name": "松",
     "time": "一一〇〇时报",
     "time_word_jp": "一一〇〇。横須賀防備戦区、異常なし、です！",
     "href": "https://uploads.kcwiki.cn/commons/6/6a/441a-1100.mp3",
-    "time_word_cn": "一一〇〇。橫須賀防備戰區一切正常！"
+    "time_word_cn": "一一〇〇。横须贺防备战区一切正常！"
 },
 {
     "name": "松",
     "time": "一二〇〇时报",
     "time_word_jp": "提督、一二〇〇。お昼です！さぁ、松特製の握り飯を召し上がれ。沢庵とお茶もご用意しています。",
     "href": "https://uploads.kcwiki.cn/commons/4/4a/441a-1200.mp3",
-    "time_word_cn": "提督，一二〇〇，該吃午飯了！喏，這是松特別做的飯糰，您請慢用。這還有準備好的醃蘿蔔和茶水。"
+    "time_word_cn": "提督，一二〇〇，该吃午饭了！喏，这是松特别做的饭团，您请慢用。这还有准备好的腌萝卜和茶水。"
 },
 {
     "name": "松",
     "time": "一三〇〇时报",
     "time_word_jp": "一三〇〇。提督、松のお昼、いかがでしたか？...えへへー。",
     "href": "https://uploads.kcwiki.cn/commons/9/92/441a-1300.mp3",
-    "time_word_cn": "一三〇〇。提督，松做的午飯您喜歡嗎？嘻嘻—。"
+    "time_word_cn": "一三〇〇。提督，松做的午饭您喜欢吗？嘻嘻—。"
 },
 {
     "name": "松",
@@ -24973,63 +25477,63 @@
     "time": "一五〇〇时报",
     "time_word_jp": "一五〇〇です。少し小腹が空きましたね。お芋、蒸したのがあるんです。提督、一ついかがですか？",
     "href": "https://uploads.kcwiki.cn/commons/8/88/441a-1500.mp3",
-    "time_word_cn": "現在是一五〇〇。肚子有點餓啦。這有蒸好的蕃薯，提督您要不要來一個？"
+    "time_word_cn": "现在是一五〇〇。肚子有点饿啦。这有蒸好的蕃薯，提督您要不要来一个？"
 },
 {
     "name": "松",
     "time": "一六〇〇时报",
     "time_word_jp": "提督、一六〇〇です。え？竹、ですか？そうですね。私の…私たちの自慢の妹です。",
     "href": "https://uploads.kcwiki.cn/commons/1/10/441a-1600.mp3",
-    "time_word_cn": "提督，現在是一六〇〇。咦，您問……竹嗎？沒錯呢，她是我，我們大家引以為傲的妹妹。"
+    "time_word_cn": "提督，现在是一六〇〇。咦，您问……竹吗？没错呢，她是我，我们大家引以为傲的妹妹。"
 },
 {
     "name": "松",
     "time": "一七〇〇时报",
     "time_word_jp": "一七〇〇。提督、見て！夕日、キレイですね！",
     "href": "https://uploads.kcwiki.cn/commons/f/ff/441a-1700.mp3",
-    "time_word_cn": "一七〇〇。提督，您看！夕陽好漂亮啊！"
+    "time_word_cn": "一七〇〇。提督，您看！夕阳好漂亮啊！"
 },
 {
     "name": "松",
     "time": "一八〇〇时报",
     "time_word_jp": "一八〇〇。夕食の準備は…えっ、今日は提督が？！いいん…ですか？恐縮です！では、お言葉に…甘えて。",
     "href": "https://uploads.kcwiki.cn/commons/8/84/441a-1800.mp3",
-    "time_word_cn": "一八〇〇。該做晚飯了……咦，今天提督要做飯？！真的可以嗎？誠惶誠恐！那就恭敬不如從命了。"
+    "time_word_cn": "一八〇〇。该做晚饭了……咦，今天提督要做饭？！真的可以吗？诚惶诚恐！那就恭敬不如从命了。"
 },
 {
     "name": "松",
     "time": "一九〇〇时报",
     "time_word_jp": "一九〇〇。これを提督が？美味しそう。では、ありがたくいただきます。はむ……あぁ！美味しい！",
     "href": "https://uploads.kcwiki.cn/commons/0/09/441a-1900.mp3",
-    "time_word_cn": "一九〇〇。這都是提督做的？看起來好好吃哦。謝謝您了，那就開吃吧。……哇！味道太好了！"
+    "time_word_cn": "一九〇〇。这都是提督做的？看起来好好吃哦。谢谢您了，那就开吃吧。……哇！味道太好了！"
 },
 {
     "name": "松",
     "time": "二〇〇〇时报",
     "time_word_jp": "二〇〇〇。提督、美味しいです！まさか料理がこれほどお上手とは……え？毎年練度を上げて？へぇー！",
     "href": "https://uploads.kcwiki.cn/commons/6/6b/441a-2000.mp3",
-    "time_word_cn": "二〇〇〇。提督，這太好吃了！沒想到您廚藝有這麼高強……咦，您的廚藝還能逐年升級啊？！咦——？"
+    "time_word_cn": "二〇〇〇。提督，这太好吃了！没想到您厨艺有这么高强……咦，您的厨艺还能逐年升级啊？！咦——？"
 },
 {
     "name": "松",
     "time": "二一〇〇时报",
     "time_word_jp": "二一〇…あっ、はーい。誰かしら、こんな夜に。ヨツ？えっ、この芋羊羹を差し入れに？へへぇー、ありがとう、いただくわね。",
     "href": "https://uploads.kcwiki.cn/commons/1/13/441a-2100.mp3",
-    "time_word_cn": "二一〇……啊，來了。這麼晚了，是誰啊？四津啊？咦，特地來送蕃薯羊羹的？嘻嘻～。多謝啦，那我就收下啦。"
+    "time_word_cn": "二一〇……啊，来了。这么晚了，是谁啊？四津啊？咦，特地来送蕃薯羊羹的？嘻嘻～。多谢啦，那我就收下啦。"
 },
 {
     "name": "松",
     "time": "二二〇〇时报",
     "time_word_jp": "二二〇〇です。提督、お茶とヨツに頂いた芋羊羹いかがですか？はい、ご用意しますね。どうぞ。",
     "href": "https://uploads.kcwiki.cn/commons/b/ba/441a-2200.mp3",
-    "time_word_cn": "現在是二二〇〇。提督，要不要來點茶水和四津送的蕃薯羊羹呢？好的，我幫您準備喔。您請。"
+    "time_word_cn": "现在是二二〇〇。提督，要不要来点茶水和四津送的蕃薯羊羹呢？好的，我帮您准备喔。您请。"
 },
 {
     "name": "松",
     "time": "二三〇〇时报",
     "time_word_jp": "二三〇〇。提督、本日も大変お疲れ様でした。明日もどうぞよろしくお願いします。おやすみなさい。",
     "href": "https://uploads.kcwiki.cn/commons/3/3e/441a-2300.mp3",
-    "time_word_cn": "二三〇〇。提督，今天您辛苦了，明天還請多多指教。晚安。"
+    "time_word_cn": "二三〇〇。提督，今天您辛苦了，明天还请多多指教。晚安。"
 },
 {
     "name": "桃",
@@ -25204,168 +25708,168 @@
     "time": "〇〇〇〇时报",
     "time_word_jp": "Midnight. 提督、今日は私、ノーザンプトンがsecretaryを務めます。何でもおっしゃってください。",
     "href": "https://uploads.kcwiki.cn/commons/3/3d/460-0000.mp3",
-    "time_word_cn": "正好是午夜。提督，今天我北安普敦来担任您的秘书，有什么事请尽管吩咐。"
+    "time_word_cn": "正好是午夜。提督，今天我北安普敦來擔任您的秘書，有什麼事請儘管吩咐。"
 },
 {
     "name": "北安普敦",
     "time": "〇一〇〇时报",
     "time_word_jp": "It's 1 o'clock now. 提督、海外艦の書類はすべて、こちらにお回しください。私が全て正しく処理しておきます。お任せを。",
     "href": "https://uploads.kcwiki.cn/commons/5/52/460-0100.mp3",
-    "time_word_cn": "现在时间一点钟。提督，海外舰的公文麻烦您全部放在这里，我一定帮您处理妥当，交给我吧。"
+    "time_word_cn": "現在時間一點鐘。提督，海外艦的公文麻煩您全部放在這裡，我一定幫您處理妥當，交給我吧。"
 },
 {
     "name": "北安普敦",
     "time": "〇二〇〇时报",
     "time_word_jp": "2 o'clock now. サウスダコタ、相変わらずね。後で厳しく伝えておかなきゃ、まったく…",
     "href": "https://uploads.kcwiki.cn/commons/e/e4/460-0200.mp3",
-    "time_word_cn": "现在时间两点钟。南达科他，还是那副老样子啊。得找个时间好好训她一顿，真是的…"
+    "time_word_cn": "現在時間兩點鐘。南達科他，還是那副老樣子啊。得找個時間好好訓她一頓，真是的…"
 },
 {
     "name": "北安普敦",
     "time": "〇三〇〇时报",
     "time_word_jp": "3 o'clock now. ホーネット…のは、見ないで全申請許諾っと…これでよし、まったく問題ありません。No problem.",
     "href": "https://uploads.kcwiki.cn/commons/8/80/460-0300.mp3",
-    "time_word_cn": "现在时间三点钟。至于大黄蜂…嘛，她的公文不用看全批准就对了…这就可以啦，完全不会出差错的，没问题喔～"
+    "time_word_cn": "現在時間三點鐘。至於大黃蜂…嘛，她的公文不用看全批准就對了…這就可以啦，完全不會出差錯的，沒問題喔～"
 },
 {
     "name": "北安普敦",
     "time": "〇四〇〇时报",
     "time_word_jp": "4 o'clock now. 提督、申し訳ありません、日本水雷戦隊、特に、この第十五、第三十一駆逐隊の書類、お任せしてよろしいでしょうか…？いえ、特に深い意味は… no problem!",
     "href": "https://uploads.kcwiki.cn/commons/1/18/460-0400.mp3",
-    "time_word_cn": "现在时间四点钟。提督，真是不好意思，但是日本水雷战队——特别是这边第十五、第三十一驱逐队的文件，不介意的话交给您处理可以吗…？不是啦，也没什么特别的意思…没问题啦！"
+    "time_word_cn": "現在時間四點鐘。提督，真是不好意思，但是日本水雷戰隊——特別是這邊第十五、第三十一驅逐隊的文件，不介意的話交給您處理可以嗎…？不是啦，也沒什麼特別的意思…沒問題啦！"
 },
 {
     "name": "北安普敦",
     "time": "〇五〇〇时报",
     "time_word_jp": "5 o'clock now. はぁ〜。書類処理に終われいたら、もう朝ですね。コーヒー淹れますね、breakしましょう。",
     "href": "https://uploads.kcwiki.cn/commons/b/be/460-0500.mp3",
-    "time_word_cn": "现在时间五点钟。呼～。处理完文件，天己经亮了呢。我去煮点咖啡吧，大家休息一下。"
+    "time_word_cn": "現在時間五點鐘。呼～。處理完文件，天己經亮了呢。我去煮點咖啡吧，大家休息一下。"
 },
 {
     "name": "北安普敦",
     "time": "〇六〇〇时报",
     "time_word_jp": "6 o'clock now. 素敵な朝。Good morning!",
     "href": "https://uploads.kcwiki.cn/commons/9/96/460-0600.mp3",
-    "time_word_cn": "现在时间六点钟。早晨真好啊。早安！"
+    "time_word_cn": "現在時間六點鐘。早晨真好啊。早安！"
 },
 {
     "name": "北安普敦",
     "time": "〇七〇〇时报",
     "time_word_jp": "7 o'clock now. モーニングはこちらに。カリカリベーコンにスクランブルエッグ…卵は二つで良かったかしら？トーストにジャム、そして、熱々のコーヒーよ。さあ、召し上がれ！",
     "href": "https://uploads.kcwiki.cn/commons/5/57/460-0700.mp3",
-    "time_word_cn": "现在时间七点钟。早餐放在这里啦，脆脆的培根加上炒滑蛋…也不知道两颗蛋够不够呢？还有吐司加果酱，另外还有热呼呼的咖啡喔。好了，您请慢用。"
+    "time_word_cn": "現在時間七點鐘。早餐放在這裡啦，脆脆的培根加上炒滑蛋…也不知道兩顆蛋夠不夠呢？還有吐司加果醬，另外還有熱呼呼的咖啡喔。好了，您請慢用。"
 },
 {
     "name": "北安普敦",
     "time": "〇八〇〇时报",
     "time_word_jp": "8 o'clock now. コーヒーのおかわりはいかが？はい、もちろん。",
     "href": "https://uploads.kcwiki.cn/commons/1/11/460-0800.mp3",
-    "time_word_cn": "现在时间八点钟。请问咖啡要续杯吗？好啊，当然可以啦。"
+    "time_word_cn": "現在時間八點鐘。請問咖啡要續杯嗎？好啊，當然可以啦。"
 },
 {
     "name": "北安普敦",
     "time": "〇九〇〇时报",
     "time_word_jp": "9 o'clock now. さあ、任務部隊を編成し、仕事を始めましょう。提督、まず、遠征からですか？それとも、演習から？",
     "href": "https://uploads.kcwiki.cn/commons/2/28/460-0900.mp3",
-    "time_word_cn": "现在时间九点钟。来，把任务部队安排好，该开工了。提督，是应该先派远征呢，还是说该先打演习呢？"
+    "time_word_cn": "現在時間九點鐘。來，把任務部隊安排好，該開工了。提督，是應該先派遠征呢，還是說該先打演習呢？"
 },
 {
     "name": "北安普敦",
     "time": "一〇〇〇时报",
     "time_word_jp": "10 o'clock- あら、サウスダコタ、元気そうですね。あのあと、ワシントンと散々揉めたんですって？ホーネットが悲しむわよ。えっ？そうでもない？うん、そう…。",
     "href": "https://uploads.kcwiki.cn/commons/a/a6/460-1000.mp3",
-    "time_word_cn": "现在时间十点—哎呀，南达科他，看起来状态不错嘛。那之后你还是一样，天天和华盛顿闹别扭吗？大黄蜂听了肯定很伤心喔。咦，没有这回事？嗯～真的吗…。"
+    "time_word_cn": "現在時間十點—哎呀，南達科他，看起來狀態不錯嘛。那之後妳還是一樣，天天和華盛頓鬧彆扭嗎？大黃蜂聽了肯定很傷心喔。咦，沒有這回事？嗯～真的嗎…。"
 },
 {
     "name": "北安普敦",
     "time": "一一〇〇时报",
     "time_word_jp": "It's 11 o'clock now. Big Eも元気かしら？…彼女のことです。大丈夫ね？",
     "href": "https://uploads.kcwiki.cn/commons/5/58/460-1100.mp3",
-    "time_word_cn": "现在时间十一点。大E过得还好吗…？…说的就是“她”。有什么问题吗？"
+    "time_word_cn": "現在時間十一點。大E過得還好嗎…？…說的就是「她」。有什麼問題嗎？"
 },
 {
     "name": "北安普敦",
     "time": "一二〇〇时报",
     "time_word_jp": "It is noon! Lunchにしましょう。ノーザン特製のサンドイッチを作ってきました。さあ、召し上がれ～ 熱いcoffeeはここに。どうかしら？",
     "href": "https://uploads.kcwiki.cn/commons/1/1a/460-1200.mp3",
-    "time_word_cn": "到中午啦！来吃午饭吧。北安准备了私房特制三明治，来，您请用～。热咖啡帮您放这里了，可以吗？"
+    "time_word_cn": "到中午啦！來吃午飯吧。北安準備了私房特製三明治，來，您請用～。熱咖啡幫您放這裡了，可以嗎？"
 },
 {
     "name": "北安普敦",
     "time": "一三〇〇时报",
     "time_word_jp": "1 o'clock now. コーヒーのおかわりはいかが？今度はsugarをたくさん入れましょうか、午後の元気が出ますよ。",
     "href": "https://uploads.kcwiki.cn/commons/a/a4/460-1300.mp3",
-    "time_word_cn": "现在时间一点钟。请问咖啡要续杯吗？这杯帮您多放点糖吧，到了下午需要提神醒脑呢。"
+    "time_word_cn": "現在時間一點鐘。請問咖啡要續杯嗎？這杯幫您多放點糖吧，到了下午需要提神醒腦呢。"
 },
 {
     "name": "北安普敦",
     "time": "一四〇〇时报",
     "time_word_jp": "2 o'cl-あれは…あれは、日本の駆逐隊…！彼女たちを見ると、頭の中で「Tokyo Express」という謎の言葉が…！たしか…たしか、東京から出発する急行を甘く見てはいけないという謎の言葉…。いや違う…何…？",
     "href": "https://uploads.kcwiki.cn/commons/b/bf/460-1400.mp3",
-    "time_word_cn": "现在时间两点——那个…那边不是…日本的驱逐队吗…！…怎么见到她们，脑子里就有个奇怪的声音一直说“东京快车”…！好像…好像那个怪声音还说，一定不能对从东京出发的快车掉以轻心什么的…。啊，不对…这都什么呀…？"
+    "time_word_cn": "現在時間兩點——那個…那邊不是…日本的驅逐隊嗎…！…怎麼見到她們，腦子裡就有個奇怪的聲音一直說「東京快車」…！好像…好像那個怪聲音還說，一定不能對從東京出發的快車掉以輕心什麼的…。啊，不對…這都什麼呀…？"
 },
 {
     "name": "北安普敦",
     "time": "一五〇〇时报",
     "time_word_jp": "3 o'clock now. うっ…Hi、黒潮、親潮、How are you? うぅぅ…Fine. …はぁっ…。何故か、汗をかくわ。",
     "href": "https://uploads.kcwiki.cn/commons/6/6b/460-1500.mp3",
-    "time_word_cn": "现在时间三点钟。呃…嗨，黑潮，亲潮，你们好吗...？嗯…我还好啦…。…呼～。怎么出了一身冷汗…。"
+    "time_word_cn": "現在時間三點鐘。呃…嗨，黑潮，親潮，妳們好嗎...？嗯…我還好啦…。…呼～。怎麼出了一身冷汗…。"
 },
 {
     "name": "北安普敦",
     "time": "一六〇〇时报",
     "time_word_jp": "4 o'clock now. あっ、提督、ありがとう。Coffee、落ち着くわ。Thanks.",
     "href": "https://uploads.kcwiki.cn/commons/4/42/460-1600.mp3",
-    "time_word_cn": "现在时间四点钟。啊，提督，谢谢您喔。喝点咖啡，我就冷静多了。谢啦。"
+    "time_word_cn": "現在時間四點鐘。啊，提督，謝謝您喔。喝點咖啡，我就冷靜多了。謝啦。"
 },
 {
     "name": "北安普敦",
     "time": "一七〇〇时报",
     "time_word_jp": "5 o'clock- 提督、見てください、夕日が…！夕日があんなに美しく…！こんな平和は…いつまでも続くと、いいですね…本当に。",
     "href": "https://uploads.kcwiki.cn/commons/9/9a/460-1700.mp3",
-    "time_word_cn": "现在时间五点——提督，您看，有夕阳…！好漂亮的夕阳啊…！这样的和平…如果能天长地久，那该多好啊…。真的。"
+    "time_word_cn": "現在時間五點——提督，您看，有夕陽…！好漂亮的夕陽啊…！這樣的和平…如果能天長地久，那該多好啊…。真的。"
 },
 {
     "name": "北安普敦",
     "time": "一八〇〇时报",
     "time_word_jp": "6 o'clock now. さあ、艦隊を港に戻しましょう。提督、ディナーは何がいいかしら？",
     "href": "https://uploads.kcwiki.cn/commons/3/3e/460-1800.mp3",
-    "time_word_cn": "现在时间六点钟。喏，该让舰队回港了。提督，晚饭您想吃什么呢？"
+    "time_word_cn": "現在時間六點鐘。喏，該讓艦隊回港了。提督，晚飯您想吃什麼呢？"
 },
 {
     "name": "北安普敦",
     "time": "一九〇〇时报",
     "time_word_jp": "7 o'clock now. 提督、お待たせしました。今晩のディナーは、ノーザン特製American beefのフィレステーキです。召し上がれ！",
     "href": "https://uploads.kcwiki.cn/commons/e/e6/460-1900.mp3",
-    "time_word_cn": "现在时间七点钟。提督，让您久等了，今天的晚饭是北安私房特制的菲力牛排，用的是美国牛肉喔，您请用！"
+    "time_word_cn": "現在時間七點鐘。提督，讓您久等了，今天的晚飯是北安私房特製的菲力牛排，用的是美國牛肉喔，您請用！"
 },
 {
     "name": "北安普敦",
     "time": "二〇〇〇时报",
     "time_word_jp": "8 o'clock now. 提督、いい食べっぷりで、私も嬉しいです！ビールからウイスキーに替えますか？ロックで？了解です！",
     "href": "https://uploads.kcwiki.cn/commons/8/81/460-2000.mp3",
-    "time_word_cn": "现在时间八点钟。提督，您胃口这么好，我好开心喔！啤酒喝过了，要给您换威士忌吗？…加冰的是吗？明白了！"
+    "time_word_cn": "現在時間八點鐘。提督，您胃口這麼好，我好開心喔！啤酒喝過了，要給您換威士忌嗎？…加冰的是嗎？明白了！"
 },
 {
     "name": "北安普敦",
     "time": "二一〇〇时报",
     "time_word_jp": "9 o'cl-ノック？ こんな時間に、どなた…？まさか、Japanese destroyers!? はいっ！…あら、ヒューストン！驚かせないで、もうぅ〜！",
     "href": "https://uploads.kcwiki.cn/commons/5/50/460-2100.mp3",
-    "time_word_cn": "现在时间九点…有人敲门？这么晚了，您哪位…？不会又是日本驱逐舰吧？！来了…！…哎哟，休斯敦！你别吓我啦，讨厌～！"
+    "time_word_cn": "現在時間九點…有人敲門？這麼晚了，您哪位…？不會又是日本驅逐艦吧？！來了…！…哎喲，休斯敦！妳別嚇我啦，討厭～！"
 },
 {
     "name": "北安普敦",
     "time": "二二〇〇时报",
     "time_word_jp": "10 o'clock now. ヒューストン元気そうね、良かった。元気にやってるの、うん。うん！Okay、今夜は飲みましょう。はい、乾杯！",
     "href": "https://uploads.kcwiki.cn/commons/a/aa/460-2200.mp3",
-    "time_word_cn": "现在时间十点钟。休斯敦看起来状态不错呢，太好了，对工作也很有热情呢，嗯。…嗯！Okay，今天晚上就喝一点吧。来，干杯！"
+    "time_word_cn": "現在時間十點鐘。休斯敦看起來狀態不錯呢，太好了，對工作也很有熱情呢，嗯。…嗯！Okay，今天晚上就喝一點吧。來，乾杯！"
 },
 {
     "name": "北安普敦",
     "time": "二三〇〇时报",
     "time_word_jp": "11 o'clock now. 提督、今日も大変お疲れさまでした。明日も頑張っていきましょう、ふふ。Good night.",
     "href": "https://uploads.kcwiki.cn/commons/5/50/460-2300.mp3",
-    "time_word_cn": "现在时间十一点。提督，今天您一如既往，工作辛苦了。明天继续努力加油吧，嘻嘻。晚安。"
+    "time_word_cn": "現在時間十一點。提督，今天您一如既往，工作辛苦了。明天繼續努力加油吧，嘻嘻。晚安。"
 },
 {
     "name": "卷波",

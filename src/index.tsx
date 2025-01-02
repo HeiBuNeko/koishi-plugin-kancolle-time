@@ -60,9 +60,7 @@ export async function apply(ctx: Context) {
     .action(async ({ session }, ship) => {
       const { platform } = session.event;
       const { id: guildId } = session.event.guild;
-      if (!ship) {
-        return "请补充舰娘名称，例如：kancolle-time ship 长门";
-      }
+      if (!ship) "请补充舰娘名称，例如：kancolle-time ship 长门";
       if (shipNameList.includes(ship)) {
         await ctx.database.upsert("kancolle_time", [
           {
@@ -72,9 +70,7 @@ export async function apply(ctx: Context) {
           },
         ]);
         return `舰娘报时已开启-${ship}`;
-      } else {
-        return "舰娘名称有误或该舰娘不存在报时语音";
-      }
+      } else "舰娘名称有误或该舰娘不存在报时语音";
     });
 
   ctx
