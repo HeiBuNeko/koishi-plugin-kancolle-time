@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-kancolle-time",
   "description": "舰娘报时",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "contributors": [
     "HeiBuNeko <841619762@qq.com>"
   ],
