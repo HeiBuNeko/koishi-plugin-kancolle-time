@@ -12,7 +12,7 @@
 
 # 使用方法
 
-###### kancolle-time ship `<ship>` 指定舰娘报时
+#### kancolle-time ship `<ship>` 指定舰娘报时
 
 - 使用示例：kancolle-time ship 长门
 
@@ -20,11 +20,10 @@
 
 整点报时时会从舰娘 Wiki 上请求语音文件，请确保与舰娘 Wiki 的连接畅通
 
-###### kancolle-time off 关闭舰娘报时
+#### kancolle-time off 关闭舰娘报时
 
 # 更新日志
 
-<details>
-<summary>点击此处————查看更新日志</summary>
-- **1.0.0** 指定舰娘报时功能
-</details>
+v1.0.1 添加缺失的 `json` 文件
+
+v1.0.0 指定舰娘报时功能
