@@ -61,6 +61,8 @@ export async function apply(ctx: Context) {
     }
   );
 
+  ctx.command("kancolle-time", "舰娘报时");
+
   ctx
     .command("kancolle-time.status", "当前群组舰娘报时状态")
     .action(async ({ session }) => {
