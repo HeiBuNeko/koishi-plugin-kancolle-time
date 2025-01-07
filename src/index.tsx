@@ -143,28 +143,26 @@ export async function apply(ctx: Context) {
     const ktRows = await ctx.database.get("kancolle_time", {});
     const hour = new Date().getHours();
 
-    // 0点随机舰娘名称
-    if (hour === 0) {
+    // 发送广播
+    ktRows.forEach(async (row) => {
+      const guildTimeList = timeList.filter((item) => item.name === row.ship);
+      await ctx.broadcast(
+        [`${row.platform}:${row.guildId}`],
+        <>
+          <p>{guildTimeList[hour].time_word_jp}</p>
+          <p>{guildTimeList[hour].time_word_cn}</p>
+          <audio src={guildTimeList[hour].href} />
+        </>
+      );
+    });
+
+    // 23点随机舰娘名称
+    if (hour === 23) {
       const newRows = ktRows.map((row) => ({
         ...row,
         ship: row.random ? Random.pick([...shipNameList]) : row.ship,
       }));
       await ctx.database.upsert("kancolle_time", newRows);
     }
-
-    // 发送广播
-    setTimeout(async () => {
-      ktRows.forEach(async (row) => {
-        const guildTimeList = timeList.filter((item) => item.name === row.ship);
-        await ctx.broadcast(
-          [`${row.platform}:${row.guildId}`],
-          <>
-            <p>{guildTimeList[hour].time_word_jp}</p>
-            <p>{guildTimeList[hour].time_word_cn}</p>
-            <audio src={guildTimeList[hour].href} />
-          </>
-        );
-      });
-    }, 0);
   });
 }
