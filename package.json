@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-kancolle-time",
-  "description": "舰娘报时",
-  "version": "1.0.5",
+  "description": "舰娘报时，报时语音来源于舰娘百科，支持指定舰娘报时、每日随机舰娘报时功能",
+  "version": "1.0.6",
   "contributors": [
     "HeiBuNeko <841619762@qq.com>"
   ],
@@ -30,7 +30,7 @@
   "koishi": {
     "description": {
       "en": "kancolle-time",
-      "zh": "舰娘报时"
+      "zh": "舰娘报时，报时语音来源于舰娘百科，支持指定舰娘报时、每日随机舰娘报时功能"
     },
     "service": {
       "required": [

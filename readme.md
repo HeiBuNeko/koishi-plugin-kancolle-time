@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/koishi-plugin-kancolle-time?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-kancolle-time)
 
-舰娘报时插件，数据来源于 Scrapy 项目：[https://github.com/HeiBuNeko/kancollebot](https://github.com/HeiBuNeko/kancollebot "kancolle-bot")
+舰娘报时插件，报时语音来源于舰娘百科，数据来源于舰娘百科 Scrapy 项目：[https://github.com/HeiBuNeko/kancollebot](https://github.com/HeiBuNeko/kancollebot "kancolle-bot")
 
 依赖的数据源包括 `time_list.json` 时报列表
 
@@ -30,6 +30,7 @@
 
 # 更新日志
 
+- v1.0.6 优化每日随机舰娘，更新 time_list.json 补充缺少的秋月
 - v1.0.5 更新 README.md，添加 help 菜单说明
 - v1.0.4
   - 优化数据库结构
