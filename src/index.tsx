@@ -1,4 +1,4 @@
-import { Bot, Context, Random, Schema } from "koishi";
+import { Context, Random, Schema } from "koishi";
 import {} from "koishi-plugin-cron";
 import fs from "fs";
 import path from "path";
@@ -144,7 +144,7 @@ export async function apply(ctx: Context) {
     const hour = new Date().getHours();
 
     // 发送广播
-    ktRows.forEach(async (row) => {
+    for (const row of ktRows) {
       const guildTimeList = timeList.filter((item) => item.name === row.ship);
       await ctx.broadcast(
         [`${row.platform}:${row.guildId}`],
@@ -154,7 +154,7 @@ export async function apply(ctx: Context) {
           <audio src={guildTimeList[hour].href} />
         </>
       );
-    });
+    }
 
     // 23点随机舰娘名称
     if (hour === 23) {
