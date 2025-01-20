@@ -28,8 +28,19 @@
 
 #### kancolle-time off 关闭舰娘报时
 
+# 常见问题
+
+#### 发送群组消息 retcode: 1200 报错
+
+```
+[W] bot Error: Error with request send_group_msg, args: {"group_id":xxx,"message":[{"type":"record","data":{"file":"xxx.mp3","cache":0}}]}, retcode: 1200
+```
+
+通常是由于舰娘百科文件服务器 502 错误
+
 # 更新日志
 
+- v1.1.0 数据更新 舰娘百科 v2025.01.20
 - v1.0.6 优化每日随机舰娘，更新 time_list.json 补充缺少的秋月
 - v1.0.5 更新 README.md，添加 help 菜单说明
 - v1.0.4
