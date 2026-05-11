@@ -1,26 +1,22 @@
-import { Context, Random, Schema } from "koishi";
-import {} from "koishi-plugin-cron";
-import fs from "fs";
-import path from "path";
+import { Context, h, Schema, Universal } from "koishi";
+import "koishi-plugin-cron";
+
+import timeListJson from "./time_list.json";
 
 export const name = "kancolle-time";
-export const inject = ["database", "cron"];
+export const inject = ["cron"];
 
-export interface Config {}
+const DIGITS = "〇一二三四五六七八九";
 
-export const Config: Schema<Config> = Schema.object({});
-
-declare module "koishi" {
-  interface Tables {
-    kancolle_time: IKancolleTime;
-  }
+export interface TimeTarget {
+  ship: string;
+  platform: string;
+  guild: string;
+  selfId?: string;
 }
 
-interface IKancolleTime {
-  platform: string;
-  guildId: string;
-  ship: string;
-  random: boolean;
+export interface Config {
+  targets: TimeTarget[];
 }
 
 interface ITimeItem {
@@ -31,138 +27,92 @@ interface ITimeItem {
   href: string;
 }
 
-const CNSwitch = (status: boolean) => (status ? "开启" : "关闭");
+const timeList = timeListJson as ITimeItem[];
 
-export async function apply(ctx: Context) {
-  // 读取报时列表
-  const timeList = JSON.parse(
-    fs.readFileSync(path.join(__dirname, `time_list.json`), "utf-8")
-  ) as ITimeItem[];
+const shipNames = [...new Set(timeList.map((i) => i.name))].sort();
 
-  // 可任命的舰娘列表
-  const shipNameList = new Set(timeList.map((item) => item.name));
+const ShipSchema = Schema.union(
+  shipNames.map((name) => Schema.const(name)),
+) as Schema<string>;
 
-  ctx.model.extend(
-    "kancolle_time",
-    {
-      platform: "string",
-      guildId: "string",
-      ship: {
-        type: "string",
-        initial: "长门",
-      },
-      random: {
-        type: "boolean",
-        initial: false,
-      },
-    },
-    {
-      primary: ["platform", "guildId"],
-    }
-  );
+const TargetSchema: Schema<TimeTarget> = Schema.object({
+  ship: ShipSchema.description("舰娘（可搜索下拉）"),
+  platform: Schema.string().description(
+    "机器人平台，与 Bot#platform 一致（如 onebot）",
+  ),
+  guild: Schema.string().description(
+    "频道 ID：QQ 群填群号字符串（与 session.channelId 一致）；其他平台填对应 channelId",
+  ),
+  selfId: Schema.string()
+    .required(false)
+    .description("可选。同平台有多账号时填写 bot.selfId 以指定机器人"),
+});
 
-  ctx.command("kancolle-time", "舰娘报时");
+export const Config: Schema<Config> = Schema.object({
+  targets: Schema.array(TargetSchema)
+    .description("整点报时：每条对应该频道使用指定舰娘语音与台词")
+    .default([]),
+});
 
-  ctx
-    .command("kancolle-time.status", "当前群组舰娘报时状态")
-    .action(async ({ session }) => {
-      const { platform } = session.event;
-      const { id: guildId } = session.event.guild;
-      const ktRows = await ctx.database.get("kancolle_time", {
-        platform,
-        guildId,
-      });
-      return ktRows.length
-        ? `报时舰娘：${ktRows[0].ship} 每日随机：${CNSwitch(ktRows[0].random)}`
-        : "当前群组未开启舰娘报时";
-    });
+function hourToTimeLabel(hour: number): string {
+  const tens = Math.floor(hour / 10);
+  const ones = hour % 10;
+  return `${DIGITS[tens]}${DIGITS[ones]}〇〇时报`;
+}
 
-  ctx
-    .command("kancolle-time.random", "每日随机舰娘报时")
-    .action(async ({ session }) => {
-      const { platform } = session.event;
-      const { id: guildId } = session.event.guild;
+function buildTimeIndex(list: ITimeItem[]): Map<string, ITimeItem> {
+  const map = new Map<string, ITimeItem>();
+  for (const item of list) {
+    map.set(`${item.name}\0${item.time}`, item);
+  }
+  return map;
+}
 
-      const ktRows = await ctx.database.get("kancolle_time", {
-        platform,
-        guildId,
-      });
-      const random = ktRows.length ? !ktRows[0].random : true;
-      await ctx.database.upsert("kancolle_time", [
-        {
-          platform,
-          guildId,
-          random,
-        },
-      ]);
-      return `每日随机已${CNSwitch(random)}`;
-    });
-
-  ctx
-    .command("kancolle-time.ship <ship>", "指定舰娘报时")
-    .example("kancolle-time ship 长门")
-    .action(async ({ session }, ship) => {
-      if (!ship) {
-        return `请填写舰娘名称或"random"\n使用示例：kancolle-time ship 长门`;
-      }
-
-      const { platform } = session.event;
-      const { id: guildId } = session.event.guild;
-
-      if (shipNameList.has(ship)) {
-        // 指定舰娘
-        await ctx.database.upsert("kancolle_time", [
-          { platform, guildId, ship },
-        ]);
-        return `指定舰娘报时-${ship}`;
-      }
-      if (ship === "random") {
-        // 随机舰娘
-        const randomShip = Random.pick([...shipNameList]);
-        await ctx.database.upsert("kancolle_time", [
-          { platform, guildId, ship },
-        ]);
-        return `随机舰娘报时-${randomShip}`;
-      }
-      return "舰娘名称有误或Wiki不存在报时语音";
-    });
-
-  ctx
-    .command("kancolle-time.off", "关闭舰娘报时")
-    .action(async ({ session }) => {
-      const { platform } = session.event;
-      const { id: guildId } = session.event.guild;
-      await ctx.database.remove("kancolle_time", {
-        platform,
-        guildId,
-      });
-      return "舰娘报时已关闭";
-    });
+export function apply(ctx: Context, config: Config) {
+  const logger = ctx.logger("kancolle-time");
+  const byKey = buildTimeIndex(timeList);
 
   ctx.cron("0 * * * *", async () => {
-    const ktRows = await ctx.database.get("kancolle_time", {});
     const hour = new Date().getHours();
+    const label = hourToTimeLabel(hour);
 
-    // 发送广播
-    for (const row of ktRows) {
-      const guildTimeList = timeList.filter((item) => item.name === row.ship);
-      await ctx.broadcast(
-        [`${row.platform}:${row.guildId}`],
-        <>
-          <p>{guildTimeList[hour].time_word_jp}</p>
-          <p>{guildTimeList[hour].time_word_cn}</p>
-          <audio src={guildTimeList[hour].href} />
-        </>
+    for (const target of config.targets) {
+      const item = byKey.get(`${target.ship}\0${label}`);
+      if (!item) {
+        logger.warn(
+          `整点 ${label} 无数据：舰娘「${target.ship}」，已跳过 guild=${target.guild}`,
+        );
+        continue;
+      }
+
+      const content = [
+        h("p", [item.time_word_jp]),
+        h("p", [item.time_word_cn]),
+        h.audio(item.href),
+      ];
+
+      let bots = ctx.bots.filter(
+        (b) =>
+          b.platform === target.platform &&
+          b.status === Universal.Status.ONLINE,
       );
-    }
+      if (target.selfId)
+        bots = bots.filter((b) => String(b.selfId) === target.selfId);
 
-    // 23点随机舰娘名称
-    if (hour === 23) {
-      const newRows = ktRows.map((row) => ({
-        ...row,
-        ship: row.random ? Random.pick([...shipNameList]) : row.ship,
-      }));
-      await ctx.database.upsert("kancolle_time", newRows);
+      if (!bots.length) {
+        logger.warn(
+          `未找到在线机器人：platform=${target.platform}${target.selfId ? ` selfId=${target.selfId}` : ""}`,
+        );
+        continue;
+      }
+
+      for (const bot of bots) {
+        await bot.sendMessage(target.guild, content).catch((err: unknown) => {
+          logger.warn(
+            `发送失败 bot=${bot.selfId} guild=${target.guild}: ${err}`,
+          );
+        });
+      }
     }
   });
 }

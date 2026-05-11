@@ -25,7 +25,8 @@
     "time"
   ],
   "peerDependencies": {
-    "koishi": "^4.18.7"
+    "koishi": "^4.18.11",
+    "koishi-plugin-cron": "^3.1.0"
   },
   "koishi": {
     "description": {
@@ -34,12 +35,8 @@
     },
     "service": {
       "required": [
-        "database",
         "cron"
       ]
     }
-  },
-  "dependencies": {
-    "@satorijs/element": "^3.1.7"
   }
 }
