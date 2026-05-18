@@ -1,81 +1,137 @@
-import { Context, h, Schema } from "koishi";
+import { Context, h, Random, Schema, Time } from "koishi";
 import {} from "koishi-plugin-cron";
 import timeListJson from "./time_list.json";
 
-export const name = "kancolle-time";
-export const inject = ["cron", "database"];
+declare module "koishi" {
+  interface Tables {
+    kancolle_time: {
+      platform: string;
+      channelId: string;
+      random: boolean;
+      ship: string | null;
+    };
+  }
+}
 
-const DIGITS = "〇一二三四五六七八九";
-
-export interface TimeTarget {
-  ship: string;
+type TimeTarget = {
   platform: string;
   channelId: string;
-}
+  random: boolean;
+  ship?: string;
+};
+
+type TimeItem = {
+  ship_name: string;
+  time_label: string;
+  audio_url: string;
+  voice_line_ja: string;
+  voice_line_zh: string;
+};
 
 export interface Config {
   targets: TimeTarget[];
 }
 
-interface TimeItem {
-  name: string;
-  time: string;
-  time_word_jp: string;
-  time_word_cn: string;
-  href: string;
-}
+export const name = "kancolle-time";
+export const inject = ["cron", "database"];
 
 const timeList = timeListJson as TimeItem[];
 
-const shipNames = [...new Set(timeList.map((i) => i.name))];
+/** 与 time_list.json 中 `time_label` 一致，例如 20 点 → 「二〇〇〇时报」 */
+const CN_HOUR_DIGITS = "〇一二三四五六七八九";
 
-const ShipSchema = Schema.union(
-  shipNames.map((name) => Schema.const(name)),
-) as Schema<string>;
-
-const TargetSchema: Schema<TimeTarget> = Schema.object({
-  ship: ShipSchema.description("舰娘"),
-  platform: Schema.string().description("平台名"),
-  channelId: Schema.string().description("频道 ID"),
-});
-
-export const Config: Schema<Config> = Schema.object({
-  targets: Schema.array(TargetSchema)
-    .description("整点报时：每条对应该频道使用指定舰娘语音与台词")
-    .default([]),
-});
-
-const hourToTimeLabel = (hour: number): string => {
+function hourToReportTime(hour: number): string {
   const tens = Math.floor(hour / 10);
   const ones = hour % 10;
-  return `${DIGITS[tens]}${DIGITS[ones]}〇〇时报`;
-};
+  return `${CN_HOUR_DIGITS[tens]}${CN_HOUR_DIGITS[ones]}〇〇时报`;
+}
 
-export const apply = (ctx: Context, config: Config) => {
+const shipNames = [...new Set(timeList.map((i) => i.ship_name))];
+
+const TargetSchema: Schema<TimeTarget> = Schema.intersect([
+  Schema.object({
+    platform: Schema.string().description("平台名").required(),
+    channelId: Schema.string().description("频道 ID").required(),
+    random: Schema.boolean().default(true).description("每日随机舰娘"),
+  }),
+  Schema.union([
+    Schema.object({
+      random: Schema.const(false).required(),
+      ship: Schema.union(shipNames).description("舰娘").required(),
+    }),
+    Schema.object({ random: Schema.const(true) }),
+  ]),
+]);
+
+export const Config: Schema<Config> = Schema.object({
+  targets: Schema.array(TargetSchema).description("舰娘报时").default([]),
+});
+
+export const apply = async (ctx: Context, config: Config) => {
   const logger = ctx.logger("kancolle-time");
 
-  ctx.cron("0 * * * *", async () => {
-    const hour = new Date().getHours();
-    const label = hourToTimeLabel(hour);
+  // 定义数据库表
+  ctx.model.extend(
+    "kancolle_time",
+    {
+      platform: "string",
+      channelId: "string",
+      random: "boolean",
+      ship: "string",
+    },
+    {
+      primary: ["platform", "channelId"],
+    },
+  );
 
-    for (const target of config.targets) {
-      const byShip = timeList.filter((i) => i.name === target.ship);
-      const item = byShip.find((i) => i.time === label);
+  // 同步配置到数据库
+  const rows = config.targets.map((t) => ({
+    platform: t.platform,
+    channelId: t.channelId,
+    random: t.random,
+    ship: t.random ? Random.pick(shipNames) : t.ship,
+  }));
+  await ctx.database.remove("kancolle_time", {});
+  await ctx.database.upsert("kancolle_time", rows);
+
+  // 整点报时
+  ctx.cron("0 * * * *", async () => {
+    // 偏移 1 分钟，避免整点偏差
+    const hour = new Date(Date.now() + 60_000).getHours();
+    const targets = await ctx.database.get("kancolle_time", {});
+    targets.forEach((target) => {
+      const shipTimeList = timeList.filter((i) => i.ship_name === target.ship);
+      const reportTime = hourToReportTime(hour);
+      const item = shipTimeList.find((i) => i.time_label === reportTime);
       if (!item) {
-        logger.warn(`未找到报时条目: ${target.ship} ${label}`);
-        continue;
+        logger.warn(`未找到报时条目：舰娘=${target.ship} time=${reportTime}`);
+        return;
       }
 
       const content = [
-        h("p", [item.time_word_jp]),
-        h("p", [item.time_word_cn]),
-        h.audio(item.href),
+        h("p", [item.voice_line_ja]),
+        h("p", [item.voice_line_zh]),
+        h.audio(item.audio_url),
       ];
 
       const channel = `${target.platform}:${target.channelId}`;
-      await ctx.broadcast([channel], content).catch((err) => {
-        logger.warn(`广播失败 ${channel}: ${err}`);
+      ctx.broadcast([channel], content).catch((err) => {
+        logger.warn(`发送失败 ${channel}: ${err}`);
       });
-    }
+    });
+  });
+
+  // 更换舰娘
+  ctx.cron("59 23 * * *", () => {
+    ctx.database.get("kancolle_time", {}).then((targets) => {
+      targets.forEach(({ platform, channelId, random }) => {
+        if (!random) return;
+        ctx.database.set(
+          "kancolle_time",
+          { platform, channelId },
+          { ship: Random.pick(shipNames) },
+        );
+      });
+    });
   });
 };
