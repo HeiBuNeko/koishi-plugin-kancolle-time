@@ -1,4 +1,4 @@
-import { Context, h, Random, Schema, Time } from "koishi";
+import { Context, h, Random, Schema } from "koishi";
 import {} from "koishi-plugin-cron";
 import timeListJson from "./time_list.json";
 
@@ -133,5 +133,14 @@ export const apply = async (ctx: Context, config: Config) => {
         );
       });
     });
+  });
+
+  // 查询当前舰娘
+  ctx.command("kancolle-time.info").action(async ({ session }) => {
+    const targets = await ctx.database.get("kancolle_time", {
+      platform: session.platform,
+      channelId: session.channelId,
+    });
+    return `当前舰娘：${targets[0]?.ship ?? "未设置"} `;
   });
 };
