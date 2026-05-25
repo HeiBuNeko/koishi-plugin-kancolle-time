@@ -87,7 +87,7 @@ export const apply = async (ctx: Context, config: Config) => {
     {
       enabled: {
         type: "boolean",
-        initial: false,
+        initial: true,
       },
       platform: "string",
       channelId: "string",
