@@ -57,14 +57,14 @@ const shipNames = [...new Set(timeList.map((i) => i.ship_name))];
 
 const TargetSchema: Schema<TimeTarget> = Schema.intersect([
   Schema.object({
-    enabled: Schema.boolean().default(false).description("是否启用"),
+    enabled: Schema.boolean().default(true).description("是否启用"),
     platform: Schema.string().description("平台名").required(),
     channelId: Schema.string().description("频道 ID").required(),
     random: Schema.boolean().default(false).description("每日随机舰娘"),
   }),
   Schema.union([
     Schema.object({
-      random: Schema.const(false).required(),
+      random: Schema.const(false),
       ship: Schema.union(shipNames).description("舰娘").required(),
     }),
     Schema.object({
@@ -105,15 +105,28 @@ export const apply = async (ctx: Context, config: Config) => {
     },
   );
 
-  // 同步配置到数据库
-  await ctx.database.remove("kancolle_time", {});
-  await ctx.database.upsert("kancolle_time", config.targets);
-
   /** 从数据库同步配置 */
   const syncScope = async () => {
     const targets = await ctx.database.get("kancolle_time", {});
     ctx.scope.update({ targets });
   };
+
+  // 同步配置到数据库
+  const configKeys = new Set(
+    config.targets.map((target) => `${target.platform}:${target.channelId}`),
+  );
+  const existing = await ctx.database.get("kancolle_time", {});
+  const removed = existing.filter(
+    (target) => !configKeys.has(`${target.platform}:${target.channelId}`),
+  );
+  if (removed.length) {
+    await ctx.database.remove("kancolle_time", {
+      $or: removed.map(({ platform, channelId }) => ({ platform, channelId })),
+    });
+  }
+  await ctx.database.upsert("kancolle_time", config.targets);
+  // 从数据库同步配置
+  await syncScope();
 
   // 整点报时
   ctx.cron("0 * * * *", async () => {
